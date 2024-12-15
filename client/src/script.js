@@ -15,7 +15,9 @@ async function fetchCourseSuggestions(query) {
 
 function setupAutocomplete(inputField) {
   const suggestionBox = document.createElement("div");
-  suggestionBox.className = "suggestion-box";
+  suggestionBox.className =
+    "absolute bg-white border border-gray-300 shadow-md w-full mt-1 rounded";
+
   inputField.parentNode.insertBefore(suggestionBox, inputField.nextSibling);
 
   inputField.addEventListener("input", async () => {
@@ -29,7 +31,10 @@ function setupAutocomplete(inputField) {
     const suggestions = await fetchCourseSuggestions(query);
 
     suggestionBox.innerHTML = suggestions
-      .map((suggestion) => `<div class="suggestion-item">${suggestion}</div>`)
+      .map(
+        (suggestion) =>
+          `<div class="cursor-pointer p-2 hover:bg-gray-200">${suggestion}</div>`
+      )
       .join("");
     suggestionBox.style.display = suggestions.length > 0 ? "block" : "none";
 
@@ -55,17 +60,18 @@ function setupAutocomplete(inputField) {
 function addCourseSection() {
   const formContainer = document.getElementById("form-container");
   const formSet = document.createElement("div");
-  formSet.className = "form-group";
+  formSet.className = "mb-4";
   formSet.id = `course-set-${courseCount}`;
   formSet.innerHTML = `
-    <label for="course-${courseCount}">Course Name</label>
-    <input type="text" id="course-${courseCount}" placeholder="Enter course name" />
+  <label for="course-${courseCount}" class="block font-semibold text-gray-700">Course Name</label>
+  <input type="text" id="course-${courseCount}" placeholder="Enter course name" class="p-2 border border-gray-300 rounded mb-2 w-full" />
 
-    <label for="section-${courseCount}">Section</label>
-    <input type="text" id="section-${courseCount}" placeholder="Enter section" />
+  <label for="section-${courseCount}" class="block font-semibold text-gray-700">Section</label>
+  <input type="text" id="section-${courseCount}" placeholder="Enter section" class="p-2 border border-gray-300 rounded mb-2 w-full" />
 
-    <button class="remove-btn" onclick="removeCourseSection(${courseCount})">Remove</button>
-  `;
+  <button class="bg-red-500 text-white p-2 rounded hover:bg-red-600 mt-2" onclick="removeCourseSection(${courseCount})">Remove</button>
+`;
+
   formContainer.appendChild(formSet);
   const courseInput = document.getElementById(`course-${courseCount}`);
   setupAutocomplete(courseInput);
@@ -93,6 +99,12 @@ async function generateRoutine() {
   routineContainer.style.display = "none";
   routineContainer.innerHTML = "";
   errorContainer.style.display = "none";
+  errorContainer.classList.add(
+    "text-red-600",
+    "font-semibold",
+    "mt-4",
+    "text-center"
+  );
 
   if (!studentId || !department) {
     errorContainer.textContent = "Please enter your Student ID and Department.";
