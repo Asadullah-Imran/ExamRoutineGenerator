@@ -4,86 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam Routine Generator</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f4f4f9;
-      }
-      .container {
-        width: 100%;
-        max-width: 500px;
-        background: white;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      }
-      .form-group {
-        margin-bottom: 15px;
-      }
-      label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-      }
-      select,
-      input {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-      }
-      button {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 15px;
-        border-radius: 4px;
-        cursor: pointer;
-        width: 100%;
-        font-size: 16px;
-      }
-      button:hover {
-        background-color: #0056b3;
-      }
-      .routine-container {
-        margin-top: 20px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        background: #fafafa;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 10px;
-      }
-      table th,
-      table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: left;
-      }
-      table th {
-        background-color: #007bff;
-        color: white;
-      }
-      .error {
-        color: red;
-        font-weight: bold;
-        margin-top: 10px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h2>Exam Routine Generator</h2>
+      <!-- Shared Fields -->
+      <div class="form-group">
+        <label for="studentId">Student ID</label>
+        <input type="text" id="studentId" placeholder="Enter your Student ID" />
+      </div>
       <div class="form-group">
         <label for="department">Department</label>
         <select id="department">
@@ -91,111 +21,13 @@
           <option value="BSEEE">BSEEE</option>
         </select>
       </div>
-      <div class="form-group">
-        <label for="course">Course Name</label>
-        <input
-          type="text"
-          id="course"
-          placeholder="Start typing to search..."
-        />
-      </div>
-      <div class="form-group">
-        <label for="section">Section</label>
-        <select id="section">
-          <option value="A">A</option>
-          <option value="B">B</option>
-          <option value="C">C</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="studentId">Student ID</label>
-        <input type="text" id="studentId" placeholder="Enter your Student ID" />
-      </div>
+      <!-- Dynamic Course Fields -->
+      <div id="form-container"></div>
+      <button class="add-btn" onclick="addCourseSection()">Add Course</button>
       <button onclick="generateRoutine()">Generate Routine</button>
       <div id="routine" class="routine-container" style="display: none"></div>
       <div id="error" class="error" style="display: none"></div>
     </div>
-    <script>
-      async function generateRoutine() {
-        const department = document.getElementById("department").value;
-        const course = document.getElementById("course").value;
-        const section = document.getElementById("section").value;
-        const studentId = document.getElementById("studentId").value;
-
-        const routineContainer = document.getElementById("routine");
-        const errorContainer = document.getElementById("error");
-
-        // Clear previous results
-        routineContainer.style.display = "none";
-        errorContainer.style.display = "none";
-
-        if (!studentId || !course) {
-          errorContainer.textContent = "Please fill all the fields.";
-          errorContainer.style.display = "block";
-          return;
-        }
-
-        try {
-          const response = await fetch(
-            "http://127.0.0.1:8000/generate-routine",
-            {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({
-                department,
-                course,
-                section,
-                student_id: studentId,
-              }),
-            }
-          );
-
-          const result = await response.json();
-
-          if (result.success) {
-            const routineData = result.routine;
-            let tableHTML = `
-              <table>
-                <thead>
-                  <tr>
-                    <th>Exam Date</th>
-                    <th>Exam Time</th>
-                    <th>Room</th>
-                  </tr>
-                </thead>
-                <tbody>
-            `;
-
-            routineData.forEach((item) => {
-              tableHTML += `
-                <tr>
-                  <td>${item["Exam Date"]}</td>
-                  <td>${item["Exam Time"]}</td>
-                  <td>${item.Room}</td>
-                </tr>
-              `;
-            });
-
-            tableHTML += `
-                </tbody>
-              </table>
-            `;
-
-            routineContainer.innerHTML = tableHTML;
-            routineContainer.style.display = "block";
-          } else {
-            errorContainer.textContent =
-              result.detail || "Failed to generate routine.";
-            errorContainer.style.display = "block";
-          }
-        } catch (error) {
-          errorContainer.textContent =
-            "An error occurred while generating the routine. Please try again.";
-          errorContainer.style.display = "block";
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
@@ -17,27 +17,21 @@ app.add_middleware(
 file_path = "./asset/mid-term-exam-schedule_notice-board_sose_243.xlsx"
 data = pd.read_excel(file_path)
 
+# Get unique course titles
+unique_courses = data["Course Title"].dropna().unique().tolist()
+
+@app.get("/course-suggestions")
+def get_course_suggestions(query: str = Query("", min_length=1)):
+    """Get suggestions for course titles based on the input query."""
+    suggestions = [course for course in unique_courses if query.lower() in course.lower()]
+    return {"suggestions": suggestions}
+
+
 class RoutineRequest(BaseModel):
     department: str
     course: str
     section: str
     student_id: str
-
-@app.get("/")
-async def read_root():
-    test_request = RoutineRequest(
-        department="BSCSE",
-        course="Probability and Statistics",
-        section="A",
-        student_id="011211026"
-    )
-    response = await generate_routine(test_request)
-    return response
-
-@app.post("/test")
-async def test(request: RoutineRequest):
-    print(data)
-    return {"success": True, "message": "Data printed successfully"}
 
 
 # Function to extract the room number for a matching student ID
@@ -75,7 +69,7 @@ async def generate_routine(request: RoutineRequest):
             raise HTTPException(status_code=404, detail="No room found for the given student ID.")
 
          # Create a JSON response object with exam details
-        response = filtered_data[['Exam Date', 'Exam Time']].copy()
+        response = filtered_data[['Exam Date', 'Exam Time','Course Title']].copy()
         response['Room'] = room_number.iloc[0]  # Add the matching room to the response
         
         # Convert to a list of dictionaries for JSON compatibility
