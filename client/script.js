@@ -1,9 +1,11 @@
 let courseCount = 0;
+const API_BASE_URL = "https://exgen-six.vercel.app";
+// const API_BASE_URL = "http://127.0.0.1:8000";
 
 async function fetchCourseSuggestions(department, query) {
   try {
     const response = await fetch(
-      `http://127.0.0.1:8000/course-suggestions?department=${encodeURIComponent(
+      `${API_BASE_URL}/course-suggestions?department=${encodeURIComponent(
         department
       )}&query=${encodeURIComponent(query)}`
     );
@@ -230,7 +232,7 @@ async function generateRoutine() {
     }
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/generate-routine", {
+      const response = await fetch(`${API_BASE_URL}/generate-routine`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
