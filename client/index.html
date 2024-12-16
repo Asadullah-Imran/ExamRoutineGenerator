@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam Routine Generator</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -27,6 +29,22 @@
       <button onclick="generateRoutine()">Generate Routine</button>
       <div id="routine" class="routine-container" style="display: none"></div>
       <div id="error" class="error" style="display: none"></div>
+      <div style="display: flex; gap: 10px; margin-top: 15px">
+        <button
+          onclick="downloadRoutine('pdf')"
+          id="download-routine-btn"
+          style="display: none"
+        >
+          Download as PDF
+        </button>
+        <button
+          onclick="downloadRoutine('png')"
+          id="download-routine-png-btn"
+          style="display: none"
+        >
+          Download as PNG
+        </button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

@@ -92,6 +92,100 @@ function removeCourseSection(id) {
   }
 }
 
+// Function to download the routine as a CSV file
+// function downloadRoutine() {
+//   const routineContainer = document.getElementById("routine");
+//   const routineData = routineContainer.innerHTML;
+
+//   if (!routineData.trim()) {
+//     alert("No routine data available to download.");
+//     return;
+//   }
+
+//   // Create a downloadable file (CSV format)
+//   const rows = [["Course", "Exam Date", "Exam Time", "Room"]]; // CSV headers
+//   const tables = routineContainer.querySelectorAll("table");
+
+//   tables.forEach((table) => {
+//     const courseTitle = table.previousElementSibling.textContent.replace(
+//       "Routine for ",
+//       ""
+//     );
+//     const rowsData = Array.from(table.querySelectorAll("tbody tr")).map(
+//       (row) => {
+//         const cells = Array.from(row.querySelectorAll("td")).map((cell) =>
+//           cell.textContent.trim()
+//         );
+//         return [courseTitle, ...cells];
+//       }
+//     );
+//     rows.push(...rowsData);
+//   });
+
+//   // Convert rows to CSV format
+//   const csvContent = rows.map((row) => row.join(",")).join("\n");
+
+//   // Create a blob and download link
+//   const blob = new Blob([csvContent], { type: "text/csv" });
+//   const url = URL.createObjectURL(blob);
+//   const a = document.createElement("a");
+//   a.href = url;
+//   a.download = "routine.csv";
+//   a.style.display = "none";
+//   document.body.appendChild(a);
+//   a.click();
+//   document.body.removeChild(a);
+// }
+
+// Function to download the routine as an image or PDF
+function downloadRoutine(format = "pdf") {
+  const routineContainer = document.getElementById("routine");
+
+  if (!routineContainer || !routineContainer.innerHTML.trim()) {
+    alert("No routine data available to download.");
+    return;
+  }
+
+  // Use html2canvas to capture the routine container
+  html2canvas(routineContainer).then((canvas) => {
+    if (format === "png") {
+      // Save as PNG
+      const link = document.createElement("a");
+      link.href = canvas.toDataURL("image/png");
+      link.download = "routine.png";
+      link.click();
+    } else if (format === "pdf") {
+      // Save as PDF
+      const { jsPDF } = window.jspdf;
+      const pdf = new jsPDF();
+
+      const imgData = canvas.toDataURL("image/png");
+      const pageWidth = pdf.internal.pageSize.getWidth();
+      const pageHeight = pdf.internal.pageSize.getHeight();
+      const imgWidth = canvas.width;
+      const imgHeight = canvas.height;
+
+      const scaleFactor = Math.min(
+        pageWidth / imgWidth,
+        pageHeight / imgHeight
+      );
+      const imgScaledWidth = imgWidth * scaleFactor;
+      const imgScaledHeight = imgHeight * scaleFactor;
+
+      pdf.addImage(
+        imgData,
+        "PNG",
+        (pageWidth - imgScaledWidth) / 2, // Center horizontally
+        (pageHeight - imgScaledHeight) / 2, // Center vertically
+        imgScaledWidth,
+        imgScaledHeight
+      );
+
+      pdf.save("routine.pdf");
+    }
+  });
+}
+
 // Generate routines for all courses
 async function generateRoutine() {
   const studentId = document.getElementById("studentId").value;
@@ -100,11 +194,13 @@ async function generateRoutine() {
   const formSets = formContainer.querySelectorAll(".form-group");
   const routineContainer = document.getElementById("routine");
   const errorContainer = document.getElementById("error");
+  const downloadBtn = document.getElementById("download-routine-btn");
 
   // Clear previous results
   routineContainer.style.display = "none";
   routineContainer.innerHTML = "";
   errorContainer.style.display = "none";
+  downloadBtn.style.display = "none";
 
   if (!studentId || !department) {
     errorContainer.textContent = "Please enter your Student ID and Department.";
@@ -191,6 +287,11 @@ async function generateRoutine() {
       routineContainer.innerHTML += tableHTML;
     }
   });
+
+  if (routineContainer.innerHTML.trim()) {
+    downloadBtn.style.display = "block"; // Show the PDF button
+    document.getElementById("download-routine-png-btn").style.display = "block"; // Show the PNG button
+  }
 
   routineContainer.style.display = "block";
 }
