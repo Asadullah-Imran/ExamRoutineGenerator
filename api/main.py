@@ -17,15 +17,38 @@ app.add_middleware(
 file_path = "./asset/mid-term-exam-schedule_notice-board_sose_243.xlsx"
 data = pd.read_excel(file_path)
 
-# Get unique course titles
-unique_courses = data["Course Title"].dropna().unique().tolist()
+# # Get unique course titles
+# unique_courses = data["Course Title"].dropna().unique().tolist()
+
+# @app.get("/course-suggestions")
+# def get_course_suggestions(query: str = Query("", min_length=1)):
+#     """Get suggestions for course titles based on the input query."""
+#     suggestions = [course for course in unique_courses if query.lower() in course.lower()]
+#     return {"suggestions": suggestions}
+
 
 @app.get("/course-suggestions")
-def get_course_suggestions(query: str = Query("", min_length=1)):
-    """Get suggestions for course titles based on the input query."""
-    suggestions = [course for course in unique_courses if query.lower() in course.lower()]
+def get_course_suggestions(
+    department: str = Query(..., min_length=1),  # Required parameter for department
+    query: str = Query("", min_length=1)  # Optional query for course title
+):
+    """Get suggestions for course titles based on the selected department and input query."""
+    # Filter courses based on the department
+    filtered_data_by_Dept = data[data["Dept."] == department]
+    
+    if filtered_data_by_Dept.empty:
+        raise HTTPException(status_code=404, detail="No courses found for the given department.")
+    
+    # Get unique course titles for the filtered department
+    unique_courses_by_department = filtered_data_by_Dept["Course Title"].dropna().unique().tolist()
+    
+    # Further filter based on the query string (case-insensitive)
+    suggestions = [
+        course for course in unique_courses_by_department 
+        if query.lower() in course.lower()
+    ]
+    
     return {"suggestions": suggestions}
-
 
 class RoutineRequest(BaseModel):
     department: str
@@ -56,7 +79,7 @@ async def generate_routine(request: RoutineRequest):
         filtered_data = data[
             (data['Dept.'] == request.department) &
             (data['Course Title'].str.contains(request.course, case=False)) &
-            (data['Section'] == request.section)
+            (data['Section'].str.lower() == request.section.lower())  # Case-insensitive
         ]
         
         if filtered_data.empty:

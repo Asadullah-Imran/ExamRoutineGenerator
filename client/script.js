@@ -1,9 +1,11 @@
 let courseCount = 0;
 
-async function fetchCourseSuggestions(query) {
+async function fetchCourseSuggestions(department, query) {
   try {
     const response = await fetch(
-      `http://127.0.0.1:8000/course-suggestions?query=${query}`
+      `http://127.0.0.1:8000/course-suggestions?department=${encodeURIComponent(
+        department
+      )}&query=${encodeURIComponent(query)}`
     );
     const result = await response.json();
     return result.suggestions || [];
@@ -13,28 +15,31 @@ async function fetchCourseSuggestions(query) {
   }
 }
 
-function setupAutocomplete(inputField) {
+function setupAutocomplete(inputField, departmentField) {
   const suggestionBox = document.createElement("div");
-  suggestionBox.className =
-    "absolute bg-white border border-gray-300 shadow-md w-full mt-1 rounded";
-
+  suggestionBox.className = "suggestion-box";
   inputField.parentNode.insertBefore(suggestionBox, inputField.nextSibling);
 
   inputField.addEventListener("input", async () => {
     const query = inputField.value;
+    const department = departmentField.value; // Get the selected department
+    if (!department) {
+      console.error("Department is not selected.");
+      suggestionBox.innerHTML = "";
+      suggestionBox.style.display = "none";
+      return;
+    }
+
     if (query.length < 1) {
       suggestionBox.innerHTML = "";
       suggestionBox.style.display = "none";
       return;
     }
 
-    const suggestions = await fetchCourseSuggestions(query);
+    const suggestions = await fetchCourseSuggestions(department, query);
 
     suggestionBox.innerHTML = suggestions
-      .map(
-        (suggestion) =>
-          `<div class="cursor-pointer p-2 hover:bg-gray-200">${suggestion}</div>`
-      )
+      .map((suggestion) => `<div class="suggestion-item">${suggestion}</div>`)
       .join("");
     suggestionBox.style.display = suggestions.length > 0 ? "block" : "none";
 
@@ -60,21 +65,22 @@ function setupAutocomplete(inputField) {
 function addCourseSection() {
   const formContainer = document.getElementById("form-container");
   const formSet = document.createElement("div");
-  formSet.className = "mb-4";
+  formSet.className = "form-group";
   formSet.id = `course-set-${courseCount}`;
   formSet.innerHTML = `
-  <label for="course-${courseCount}" class="block font-semibold text-gray-700">Course Name</label>
-  <input type="text" id="course-${courseCount}" placeholder="Enter course name" class="p-2 border border-gray-300 rounded mb-2 w-full" />
+    <label for="course-${courseCount}">Course Name</label>
+    <input type="text" id="course-${courseCount}" placeholder="Enter course name" />
 
-  <label for="section-${courseCount}" class="block font-semibold text-gray-700">Section</label>
-  <input type="text" id="section-${courseCount}" placeholder="Enter section" class="p-2 border border-gray-300 rounded mb-2 w-full" />
+    <label for="section-${courseCount}">Section</label>
+    <input type="text" id="section-${courseCount}" placeholder="Enter section" />
 
-  <button class="bg-red-500 text-white p-2 rounded hover:bg-red-600 mt-2" onclick="removeCourseSection(${courseCount})">Remove</button>
-`;
-
+    <button class="remove-btn" onclick="removeCourseSection(${courseCount})">Remove</button>
+  `;
   formContainer.appendChild(formSet);
   const courseInput = document.getElementById(`course-${courseCount}`);
-  setupAutocomplete(courseInput);
+  const departmentField = document.getElementById("department"); // Reference the department dropdown
+  setupAutocomplete(courseInput, departmentField);
+
   courseCount++;
 }
 
@@ -99,12 +105,6 @@ async function generateRoutine() {
   routineContainer.style.display = "none";
   routineContainer.innerHTML = "";
   errorContainer.style.display = "none";
-  errorContainer.classList.add(
-    "text-red-600",
-    "font-semibold",
-    "mt-4",
-    "text-center"
-  );
 
   if (!studentId || !department) {
     errorContainer.textContent = "Please enter your Student ID and Department.";
@@ -165,9 +165,9 @@ async function generateRoutine() {
         result.error
       }</p>`;
     } else {
-      const courseTitle = result[0]["Course Title"]; // Extract course title from the response
+      const courseTitle = result[0]["Course Title"];
       let tableHTML = `
-       <h4>Routine for ${courseTitle}</h4>
+        <h4>Routine for ${courseTitle}</h4>
         <table>
           <thead>
             <tr>

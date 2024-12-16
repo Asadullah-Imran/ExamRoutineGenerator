@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Routine Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Exam Routine Generator</h2>
+      <!-- Shared Fields -->
+      <div class="form-group">
+        <label for="studentId">Student ID</label>
+        <input type="text" id="studentId" placeholder="Enter your Student ID" />
+      </div>
+      <div class="form-group">
+        <label for="department">Department</label>
+        <select id="department">
+          <option value="BSCSE">BSCSE</option>
+          <option value="BSEEE">BSEEE</option>
+        </select>
+      </div>
+      <!-- Dynamic Course Fields -->
+      <div id="form-container"></div>
+      <button class="add-btn" onclick="addCourseSection()">Add Course</button>
+      <button onclick="generateRoutine()">Generate Routine</button>
+      <div id="routine" class="routine-container" style="display: none"></div>
+      <div id="error" class="error" style="display: none"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
