@@ -196,7 +196,7 @@ async function generateRoutine() {
   const formSets = formContainer.querySelectorAll(".form-group");
   const routineContainer = document.getElementById("routine");
   const errorContainer = document.getElementById("error");
-  const downloadBtn = document.getElementById("download-routine-btn");
+  const downloadBtn = document.getElementById("download-buttons");
 
   // Clear previous results
   routineContainer.style.display = "none";
@@ -292,7 +292,6 @@ async function generateRoutine() {
 
   if (routineContainer.innerHTML.trim()) {
     downloadBtn.style.display = "block"; // Show the PDF button
-    document.getElementById("download-routine-png-btn").style.display = "block"; // Show the PNG button
   }
 
   routineContainer.style.display = "block";
