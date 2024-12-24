@@ -1,20 +1,56 @@
 let courseCount = 0;
-const API_BASE_URL = "https://exgen-six.vercel.app";
-// const API_BASE_URL = "http://127.0.0.1:8000";
+// const API_BASE_URL = "https://exgen-six.vercel.app";
+const API_BASE_URL = "http://127.0.0.1:8000";
 
-async function fetchCourseSuggestions(department, query) {
+let courseData = {}; // This will hold the course data for each department
+
+// Fetch course data only once when a department is selected
+async function loadCourseData(department) {
   try {
-    const response = await fetch(
-      `${API_BASE_URL}/course-suggestions?department=${encodeURIComponent(
-        department
-      )}&query=${encodeURIComponent(query)}`
-    );
-    const result = await response.json();
-    return result.suggestions || [];
+    let response;
+    if (department === "BSCSE" && !courseData.BSCSE) {
+      response = await fetch("bscse_course_titles.json");
+      courseData.BSCSE = await response.json();
+    } else if (department === "BSEEE" && !courseData.BSEEE) {
+      response = await fetch("bseee_course_titles.json");
+      courseData.BSEEE = await response.json();
+    } else if (department === "BSDS" && !courseData.BSDS) {
+      response = await fetch("bsds_course_titles.json");
+      courseData.BSDS = await response.json();
+    }
   } catch (error) {
-    console.error("Error fetching suggestions:", error);
-    return [];
+    console.error("Error loading course data:", error);
   }
+}
+
+// Fetch course suggestions based on the department and query
+async function fetchCourseSuggestions(department, query) {
+  // Use the course data already loaded for the department
+  if (!courseData[department]) {
+    return []; // No course data available if the department wasn't selected yet
+  }
+
+  const courses = courseData[department];
+
+  // Normalize query to lowercase for case-insensitive matching
+  const lowerQuery = query.toLowerCase();
+
+  // Filter courses based on the query
+  return courses.filter((course) => {
+    const lowerCourse = course.toLowerCase();
+    return (
+      lowerCourse.includes(lowerQuery) || // Match any part of the course name
+      getInitials(course).startsWith(lowerQuery) // Match based on initials
+    );
+  });
+}
+
+// Helper function to generate initials from a course name
+function getInitials(courseName) {
+  return courseName
+    .split(/\s+/) // Split by spaces
+    .map((word) => word[0]?.toLowerCase()) // Take the first letter of each word
+    .join(""); // Join them together
 }
 
 function setupAutocomplete(inputField, departmentField) {
@@ -93,51 +129,6 @@ function removeCourseSection(id) {
     formSet.remove();
   }
 }
-
-// Function to download the routine as a CSV file
-// function downloadRoutine() {
-//   const routineContainer = document.getElementById("routine");
-//   const routineData = routineContainer.innerHTML;
-
-//   if (!routineData.trim()) {
-//     alert("No routine data available to download.");
-//     return;
-//   }
-
-//   // Create a downloadable file (CSV format)
-//   const rows = [["Course", "Exam Date", "Exam Time", "Room"]]; // CSV headers
-//   const tables = routineContainer.querySelectorAll("table");
-
-//   tables.forEach((table) => {
-//     const courseTitle = table.previousElementSibling.textContent.replace(
-//       "Routine for ",
-//       ""
-//     );
-//     const rowsData = Array.from(table.querySelectorAll("tbody tr")).map(
-//       (row) => {
-//         const cells = Array.from(row.querySelectorAll("td")).map((cell) =>
-//           cell.textContent.trim()
-//         );
-//         return [courseTitle, ...cells];
-//       }
-//     );
-//     rows.push(...rowsData);
-//   });
-
-//   // Convert rows to CSV format
-//   const csvContent = rows.map((row) => row.join(",")).join("\n");
-
-//   // Create a blob and download link
-//   const blob = new Blob([csvContent], { type: "text/csv" });
-//   const url = URL.createObjectURL(blob);
-//   const a = document.createElement("a");
-//   a.href = url;
-//   a.download = "routine.csv";
-//   a.style.display = "none";
-//   document.body.appendChild(a);
-//   a.click();
-//   document.body.removeChild(a);
-// }
 
 // Function to download the routine as an image or PDF
 function downloadRoutine(format = "pdf") {
@@ -296,3 +287,9 @@ async function generateRoutine() {
 
   routineContainer.style.display = "block";
 }
+
+// Update the department selection
+document.getElementById("department").addEventListener("change", (e) => {
+  const department = e.target.value;
+  loadCourseData(department); // Load courses when department is selected
+});
