@@ -1,6 +1,6 @@
 let courseCount = 0;
-// const API_BASE_URL = "https://exgen-six.vercel.app";
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://exgen-six.vercel.app";
+// const API_BASE_URL = "http://127.0.0.1:8000";
 
 let courseData = {}; // This will hold the course data for each department
 
