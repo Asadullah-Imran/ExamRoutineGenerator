@@ -33,6 +33,10 @@
     <meta name="twitter:creator" content="@yourtwitterhandle" />
     <title>Exam Routine Generator</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
   </head>
@@ -59,9 +63,11 @@
 
       <!-- Add Course and Generate Routine -->
       <div class="button-group">
-        <button class="add-btn" onclick="addCourseSection()">Add Course</button>
+        <button class="add-btn" onclick="addCourseSection()">
+          <i class="fas fa-plus"></i> Add Course
+        </button>
         <button class="generate-btn" onclick="generateRoutine()">
-          Generate Routine
+          <i class="fas fa-calendar-check"></i> Generate Routine
         </button>
       </div>
 
@@ -72,10 +78,11 @@
       <!-- Download Buttons -->
       <div id="download-buttons" style="display: none">
         <button onclick="downloadRoutine('pdf')" class="download-btn">
-          Download as PDF
+          <i class="fas fa-file-pdf"></i> Download as PDF
         </button>
+
         <button onclick="downloadRoutine('png')" class="download-btn">
-          Download as PNG
+          <i class="fas fa-image"></i> Download as PNG
         </button>
       </div>
     </div>

@@ -112,7 +112,7 @@ function addCourseSection() {
     <label for="section-${courseCount}">Section</label>
     <input type="text" id="section-${courseCount}" placeholder="Enter section" />
 
-    <button class="remove-btn" onclick="removeCourseSection(${courseCount})">Remove</button>
+    <button class="remove-btn" onclick="removeCourseSection(${courseCount})"><i class="fas fa-trash"></i> Remove</button>
   `;
   formContainer.appendChild(formSet);
   const courseInput = document.getElementById(`course-${courseCount}`);
@@ -247,45 +247,75 @@ async function generateRoutine() {
     }
   }
 
-  // Display Results
-  allResults.forEach((result, index) => {
+  // Combine results into one table
+  let combinedResults = [];
+  allResults.forEach((result) => {
     if (result.error) {
-      routineContainer.innerHTML += `<p><strong>Course ${index + 1}:</strong> ${
-        result.error
-      }</p>`;
+      routineContainer.innerHTML += `<p><strong>Course:</strong> ${result.error}</p>`;
     } else {
-      const courseTitle = result[0]["Course Title"];
-      let tableHTML = `
-        <h4>Routine for ${courseTitle}</h4>
-        <table>
-          <thead>
-            <tr>
-              <th>Exam Date</th>
-              <th>Exam Time</th>
-              <th>Room</th>
-            </tr>
-          </thead>
-          <tbody>
-      `;
-      result.forEach((item) => {
-        tableHTML += `
-          <tr>
-            <td>${item["Exam Date"]}</td>
-            <td>${item["Exam Time"]}</td>
-            <td>${item.Room}</td>
-          </tr>
-        `;
-      });
-      tableHTML += `</tbody></table>`;
-      routineContainer.innerHTML += tableHTML;
+      combinedResults = combinedResults.concat(result);
     }
   });
 
-  if (routineContainer.innerHTML.trim()) {
-    downloadBtn.style.display = "block"; // Show the PDF button
-  }
+  if (combinedResults.length > 0) {
+    // Sort combinedResults by Exam Date and then by start time of Exam Time range
+    combinedResults.sort((a, b) => {
+      const dateA = new Date(a["Exam Date"]);
+      const dateB = new Date(b["Exam Date"]);
 
-  routineContainer.style.display = "block";
+      // First compare by Exam Date
+      if (dateA !== dateB) {
+        return dateA - dateB; // Sort by date if different
+      }
+
+      // If dates are the same, compare by start time of the Exam Time range
+      const timeRangeA = a["Exam Time"];
+      const timeRangeB = b["Exam Time"];
+
+      // Extract the start time (before the "-")
+      const startTimeA = timeRangeA.split(" - ")[0];
+      const startTimeB = timeRangeB.split(" - ")[0];
+
+      // Convert start time (e.g., "11:30 AM") to a Date object for comparison
+      const timeAParsed = new Date(`1970-01-01T${startTimeA}:00`);
+      const timeBParsed = new Date(`1970-01-01T${startTimeB}:00`);
+
+      return timeAParsed - timeBParsed; // Sort by start time if dates are the same
+    });
+
+    // Create a single table with all results
+    let tableHTML = `
+         <h4>Routine</h4>
+         <table>
+           <thead>
+             <tr>
+               <th>Course Title</th>
+               <th>Exam Date</th>
+               <th>Exam Time</th>
+               <th>Room</th>
+             </tr>
+           </thead>
+           <tbody>
+       `;
+
+    combinedResults.forEach((item) => {
+      tableHTML += `
+           <tr>
+             <td>${item["Course Title"]}</td>
+             <td>${item["Exam Date"]}</td>
+             <td>${item["Exam Time"]}</td>
+             <td>${item["Room"]}</td>
+           </tr>
+         `;
+    });
+
+    tableHTML += `</tbody></table>`;
+    routineContainer.innerHTML = tableHTML;
+
+    downloadBtn.style.display = "block"; // Show the download button
+
+    routineContainer.style.display = "block";
+  }
 }
 
 // Update the department selection

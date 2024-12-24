@@ -121,7 +121,15 @@ button {
 button:hover {
   transform: translateY(-2px);
 }
+/* Styling for icons inside buttons */
+button i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 18px; /* Icon size */
+}
 
+button i.fas {
+  font-size: 20px; /* Larger icon size */
+}
 .add-btn {
   background-color: var(--green-btn-color);
   color: var(--btn-text-color);
@@ -129,6 +137,10 @@ button:hover {
 
 .generate-btn {
   background-color: var(--blue-btn-color);
+  color: var(--btn-text-color);
+}
+.remove-btn {
+  background-color: var(--red-btn-color);
   color: var(--btn-text-color);
 }
 
