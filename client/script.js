@@ -17,6 +17,9 @@ async function loadCourseData(department) {
     } else if (department === "BSDS" && !courseData.BSDS) {
       response = await fetch("bsds_course_titles.json");
       courseData.BSDS = await response.json();
+    } else if (department === "ALL" && !courseData.ALL) {
+      response = await fetch("all_course_titles.json");
+      courseData.ALL = await response.json();
     }
   } catch (error) {
     console.error("Error loading course data:", error);
@@ -181,6 +184,7 @@ function downloadRoutine(format = "pdf") {
 
 // Generate routines for all courses
 async function generateRoutine() {
+  console.log("Generating routine...");
   const studentId = document.getElementById("studentId").value;
   const department = document.getElementById("department").value;
   const formContainer = document.getElementById("form-container");
@@ -194,6 +198,12 @@ async function generateRoutine() {
   routineContainer.innerHTML = "";
   errorContainer.style.display = "none";
   downloadBtn.style.display = "none";
+
+  function displayError(message) {
+    const errorContainer = document.getElementById("error");
+    errorContainer.textContent = message;
+    errorContainer.style.display = "block";
+  }
 
   if (!studentId || !department) {
     errorContainer.textContent = "Please enter your Student ID and Department.";
@@ -222,28 +232,65 @@ async function generateRoutine() {
       return;
     }
 
+    //try part
     try {
-      const response = await fetch(`${API_BASE_URL}/generate-routine`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          student_id: studentId,
-          department,
-          course,
-          section,
-        }),
-      });
+      // Fetch the JSON data
+      const response = await fetch("output_file.json");
+      const jsonData = await response.json();
 
-      const result = await response.json();
-      if (result.success) {
-        allResults.push(result.routine);
+      // Filter data based on department, course, and section
+      const filteredData = jsonData.filter(
+        (item) =>
+          item["Dept."] === department &&
+          item["Course Title"].toLowerCase().includes(course.toLowerCase()) &&
+          item["Section"].toLowerCase() === section.toLowerCase()
+      );
+
+      if (filteredData.length === 0) {
+        allResults.push({
+          error: `No routine found for course: ${course}, section: ${section}`,
+        });
+        continue; // Move to the next formSet
+      }
+
+      // Parse room information and match the student ID
+      const parseRoomInfo = (roomString, studentId) => {
+        const roomPattern = /(\d+)\s*\((\d+-\d+)\)/g; // Match room and ID range
+        let match;
+        while ((match = roomPattern.exec(roomString)) !== null) {
+          console.log(match);
+          const [_, room, idRange] = match;
+          const [startId, endId] = idRange.split("-").map(Number);
+          if (startId <= Number(studentId) && Number(studentId) <= endId) {
+            return room; // Return the room number if student ID matches
+          }
+        }
+        // If no matching room is found, show an error on the webpage
+        displayError(`No matching room found for student ID: ${studentId}`);
+
+        return null; // No matching room found
+      };
+      // Function to display error messages on the website
+
+      // Find room numbers for the given student ID
+      const roomNumbers = filteredData
+        .map((item) => ({
+          ...item,
+          Room: parseRoomInfo(item["Room"], studentId),
+        }))
+        .filter((item) => item.Room !== null);
+
+      if (roomNumbers.length === 0) {
+        allResults.push({
+          error: `No room found for student ID: ${studentId} in course: ${course}, section: ${section}`,
+        });
       } else {
-        allResults.push({ error: result.detail || "Failed to fetch routine" });
+        allResults.push(...roomNumbers);
       }
     } catch (error) {
-      allResults.push({ error: "An error occurred. Please try again." });
+      allResults.push({
+        error: "An error occurred while processing the routine.",
+      });
     }
   }
 

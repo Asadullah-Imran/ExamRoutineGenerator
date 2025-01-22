@@ -5,9 +5,13 @@
   --primary-color: #333333;
   --subtitle-color: #555555;
   --text-color: #000000;
-  --green-btn-color: #28a745;
-  --blue-btn-color: #007bff;
+  --green-btn-color: #2fbf71;
+  --blue-btn-color: #00a8e8;
+  --light-blue-btn-color: #f1fbff;
+  --table-header-color: #ffc300;
   --yellow-btn-color: #ffc107;
+  --yellowish-btn-color: #ff9d47;
+  --pinkish-btn-color: #e5616a;
   --red-btn-color: #dc3545;
   --btn-text-color: #ffffff;
   --shadow-dark: rgba(0, 0, 0, 0.25);
@@ -27,10 +31,10 @@
   --primary-color: #f0f0f0;
   --subtitle-color: #cccccc;
   --text-color: #ffffff;
-  --green-btn-color: #28a745;
-  --blue-btn-color: #007bff;
+  --green-btn-color: #96e072;
+  --blue-btn-color: #00a6fb;
   --yellow-btn-color: #ffc107;
-  --red-btn-color: #dc3545;
+  --red-btn-color: #ff3c38;
   --shadow-dark: rgba(0, 0, 0, 0.5);
   --shadow-light: rgba(255, 255, 255, 0.1);
 }
@@ -53,9 +57,91 @@ body {
   max-width: 800px;
   background: var(--background-color);
   padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 16px 0 var(--shadow-dark),
     -10px -10px 16px 0 var(--shadow-light);
+}
+
+/* Animated Loading Screen */
+/* Keyframes for Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Animated Loading Screen */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  /* animation: fadeIn 2s ease-out; Initial fade-in effect */
+}
+
+.welcome-text {
+  font-family: var(--font-secondary);
+  font-size: 36px;
+  color: var(--primary-color);
+  animation: fadeIn 2s ease-out, bounce 1s infinite;
+}
+
+.loading-message {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-top: 10px;
+  animation: fadeIn 2s ease-out 1s;
+}
+
+/* Transition to Content */
+body.loaded .loading-screen {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-out, visibility 0s 1s;
+}
+
+body.loaded .container {
+  display: block;
+  animation: slideIn 1s ease-out;
+}
+
+/* Slide-In Animation for Main Content */
+@keyframes slideIn {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 h1 {
@@ -98,12 +184,41 @@ select {
 input:focus,
 select:focus {
   outline: none;
-  border: 1px solid #007bff; /* Add a border for focus */
+  border: 1px solid var(); /* Add a border for focus */
   box-shadow: inset 5px 5px 10px var(--shadow-dark),
     inset -5px -5px 10px var(--shadow-light), 0 0 5px rgba(0, 123, 255, 0.5); /* Outer glow for focus */
 }
 .form-group {
   margin-bottom: 15px;
+}
+
+/* Loading Screen */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color); /* Match background color */
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 9999; /* Make sure it overlays on top of other elements */
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+.loading-screen h2 {
+  font-size: 24px;
+  font-family: var(--font-secondary);
+}
+
+.loading-screen p {
+  font-size: 18px;
+  font-family: var(--font-primary);
 }
 
 /* Buttons */
@@ -144,8 +259,13 @@ button i.fas {
   color: var(--btn-text-color);
 }
 
-.download-btn {
-  background-color: var(--yellow-btn-color);
+.download-btn-png {
+  background-color: var(--yellowish-btn-color);
+  color: var(--btn-text-color);
+  margin-top: 15px;
+}
+.download-btn-pdf {
+  background-color: var(--pinkish-btn-color);
   color: var(--btn-text-color);
   margin-top: 15px;
 }
@@ -177,9 +297,12 @@ table td {
   padding: 10px;
   text-align: left;
 }
+table td {
+  background-color: var(--light-blue-btn-color);
+}
 
 table th {
-  background-color: #007bff;
+  background-color: var(--blue-btn-color);
   color: #ffffff;
 }
 
@@ -189,7 +312,7 @@ table tr:nth-child(even) {
 
 /* Error Styling */
 .error {
-  color: #dc3545;
+  color: var(--red-btn-color);
   font-weight: bold;
   text-align: center;
   margin-top: 15px;
