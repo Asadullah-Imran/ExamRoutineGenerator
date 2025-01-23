@@ -250,6 +250,9 @@ async function generateRoutine() {
         allResults.push({
           error: `No routine found for course: ${course}, section: ${section}`,
         });
+        displayError(
+          `No routine found for course: ${course}, section: ${section}`
+        );
         continue; // Move to the next formSet
       }
 
