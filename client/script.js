@@ -1,25 +1,17 @@
 let courseCount = 0;
-const API_BASE_URL = "https://exgen-six.vercel.app";
-// const API_BASE_URL = "http://127.0.0.1:8000";
 
 let courseData = {}; // This will hold the course data for each department
 
 // Fetch course data only once when a department is selected
-async function loadCourseData(department) {
+async function loadCourseData(program) {
   try {
     let response;
-    if (department === "BSCSE" && !courseData.BSCSE) {
-      response = await fetch("bscse_course_titles.json");
-      courseData.BSCSE = await response.json();
-    } else if (department === "BSEEE" && !courseData.BSEEE) {
-      response = await fetch("bseee_course_titles.json");
-      courseData.BSEEE = await response.json();
-    } else if (department === "BSDS" && !courseData.BSDS) {
-      response = await fetch("bsds_course_titles.json");
-      courseData.BSDS = await response.json();
-    } else if (department === "ALL" && !courseData.ALL) {
-      response = await fetch("all_course_titles.json");
-      courseData.ALL = await response.json();
+    if (program === "sose" && !courseData.sose) {
+      response = await fetch("sose_all_course_titles.json");
+      courseData.sose = await response.json();
+    } else if (program === "sobe" && !courseData.sobe) {
+      response = await fetch("sobe_all_course_titles.json");
+      courseData.sobe = await response.json();
     }
   } catch (error) {
     console.error("Error loading course data:", error);
@@ -27,13 +19,13 @@ async function loadCourseData(department) {
 }
 
 // Fetch course suggestions based on the department and query
-async function fetchCourseSuggestions(department, query) {
+async function fetchCourseSuggestions(program, query) {
   // Use the course data already loaded for the department
-  if (!courseData[department]) {
+  if (!courseData[program]) {
     return []; // No course data available if the department wasn't selected yet
   }
 
-  const courses = courseData[department];
+  const courses = courseData[program];
 
   // Normalize query to lowercase for case-insensitive matching
   const lowerQuery = query.toLowerCase();
@@ -56,16 +48,16 @@ function getInitials(courseName) {
     .join(""); // Join them together
 }
 
-function setupAutocomplete(inputField, departmentField) {
+function setupAutocomplete(inputField, programField) {
   const suggestionBox = document.createElement("div");
   suggestionBox.className = "suggestion-box";
   inputField.parentNode.insertBefore(suggestionBox, inputField.nextSibling);
 
   inputField.addEventListener("input", async () => {
     const query = inputField.value;
-    const department = departmentField.value; // Get the selected department
-    if (!department) {
-      console.error("Department is not selected.");
+    const program = programField.value; // Get the selected department
+    if (!program) {
+      console.error("Program is not selected.");
       suggestionBox.innerHTML = "";
       suggestionBox.style.display = "none";
       return;
@@ -77,7 +69,7 @@ function setupAutocomplete(inputField, departmentField) {
       return;
     }
 
-    const suggestions = await fetchCourseSuggestions(department, query);
+    const suggestions = await fetchCourseSuggestions(program, query);
 
     suggestionBox.innerHTML = suggestions
       .map((suggestion) => `<div class="suggestion-item">${suggestion}</div>`)
@@ -119,8 +111,8 @@ function addCourseSection() {
   `;
   formContainer.appendChild(formSet);
   const courseInput = document.getElementById(`course-${courseCount}`);
-  const departmentField = document.getElementById("department"); // Reference the department dropdown
-  setupAutocomplete(courseInput, departmentField);
+  const programField = document.getElementById("program"); // Reference the department dropdown
+  setupAutocomplete(courseInput, programField);
 
   courseCount++;
 }
@@ -186,7 +178,7 @@ function downloadRoutine(format = "pdf") {
 async function generateRoutine() {
   console.log("Generating routine...");
   const studentId = document.getElementById("studentId").value;
-  const department = document.getElementById("department").value;
+  const program = document.getElementById("program").value;
   const formContainer = document.getElementById("form-container");
   const formSets = formContainer.querySelectorAll(".form-group");
   const routineContainer = document.getElementById("routine");
@@ -205,8 +197,8 @@ async function generateRoutine() {
     errorContainer.style.display = "block";
   }
 
-  if (!studentId || !department) {
-    errorContainer.textContent = "Please enter your Student ID and Department.";
+  if (!studentId || !program) {
+    errorContainer.textContent = "Please enter your Student ID and program.";
     errorContainer.style.display = "block";
     return;
   }
@@ -235,16 +227,23 @@ async function generateRoutine() {
     //try part
     try {
       // Fetch the JSON data
-      const response = await fetch("output_file.json");
+      let response;
+      if (program === "sose") {
+        response = await fetch("sose_output_file.json");
+      } else if (program === "sobe") {
+        response = await fetch("sobe_output_file.json");
+      }
       const jsonData = await response.json();
 
       // Filter data based on department, course, and section
-      const filteredData = jsonData.filter(
-        (item) =>
-          item["Dept."] === department &&
-          item["Course Title"].toLowerCase().includes(course.toLowerCase()) &&
-          item["Section"].toLowerCase() === section.toLowerCase()
-      );
+      const filteredData = jsonData.filter((item) => {
+        const courseParts = item["Course Title"].toLowerCase().split("/"); // Split by "/"
+        return (
+          courseParts.some(
+            (part) => part.trim() === course.toLowerCase().trim() // Exact match after trimming spaces
+          ) && item["Section"].toLowerCase() === section.toLowerCase()
+        );
+      });
 
       if (filteredData.length === 0) {
         allResults.push({
@@ -335,7 +334,7 @@ async function generateRoutine() {
 
     // Create a single table with all results
     let tableHTML = `
-         <h4>Routine</h4>
+         <h4>Routine for ${program.toUpperCase()} Program</h4>
          <table>
            <thead>
              <tr>
@@ -369,7 +368,12 @@ async function generateRoutine() {
 }
 
 // Update the department selection
-document.getElementById("department").addEventListener("change", (e) => {
-  const department = e.target.value;
-  loadCourseData(department); // Load courses when department is selected
+document.getElementById("program").addEventListener("change", (e) => {
+  const program = e.target.value;
+  loadCourseData(program); // Load courses when department is selected
+});
+document.addEventListener("DOMContentLoaded", () => {
+  // Load course data for "sose" when the page loads
+  const program = document.getElementById("program").value;
+  loadCourseData(program); // Load courses when department is selected
 });
