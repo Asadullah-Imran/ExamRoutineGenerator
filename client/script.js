@@ -208,6 +208,7 @@ async function generateRoutine() {
     errorContainer.style.display = "block";
     return;
   }
+  const studentPrefix = studentId.substring(0, 3); // Extract first 3 digits of student ID
 
   const allResults = [];
   for (const formSet of formSets) {
@@ -238,9 +239,17 @@ async function generateRoutine() {
       // Filter data based on department, course, and section
       const filteredData = jsonData.filter((item) => {
         const courseParts = item["Course Title"].toLowerCase().split("/"); // Split by "/"
+
+        // Ensure student gets courses from the correct department
+        if (studentPrefix === "021" && item["Dept."] !== "BSEEE") {
+          return false; // Skip if student is from BSEEE but course is not in BSEEE
+        } else if (studentPrefix !== "021" && item["Dept."] !== "BSCSE") {
+          return false; // Skip if student is from BSCSE but course is not in BSCSE
+        }
+
         return (
           courseParts.some(
-            (part) => part.trim() === course.toLowerCase().trim() // Exact match after trimming spaces
+            (part) => part.trim() === course.toLowerCase().trim()
           ) && item["Section"].toLowerCase() === section.toLowerCase()
         );
       });
