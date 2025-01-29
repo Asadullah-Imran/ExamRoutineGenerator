@@ -244,7 +244,7 @@ async function generateRoutine() {
         if (studentPrefix === "021" && item["Dept."] !== "BSEEE") {
           return false; // Skip if student is from BSEEE but course is not in BSEEE
         } else if (studentPrefix !== "021" && item["Dept."] == "BSEEE") {
-          return false; // Skip if student is from BSCSE but course is not in BSCSE
+          return false; // Skip if student is from BSCSE but course is BSEEE
         }
 
         return (
