@@ -4,10 +4,10 @@
         "Course Code": "BMT 2113/QNT 2105",
         "Course Title": "Business Mathematics II/Mathematics for Business Decision",
         "Section": "A",
-        "Teacher": "ShAz",
-        "Exam Date": "April 12, 2025",
+        "Teacher": "MA",
+        "Exam Date": "September 07, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "201 (111182055-1112420015) 202 (1112420028-1142420026)"
+        "Room": "201 (111183044-1112420042) 202 (1112420126-1142430020)"
     },
     {
         "Program": "BBA",
@@ -15,9 +15,9 @@
         "Course Title": "Business Mathematics II/Mathematics for Business Decision",
         "Section": "B",
         "Teacher": "MA",
-        "Exam Date": "April 12, 2025",
+        "Exam Date": "September 07, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "203 (111201038-1112420033) 204 (1112420047-114202009)"
+        "Room": "203 (111183108-1112410073) 204 (1112410129-1142410020)"
     },
     {
         "Program": "BBA",
@@ -25,439 +25,399 @@
         "Course Title": "Business Mathematics II/Mathematics for Business Decision",
         "Section": "C",
         "Teacher": "MA",
-        "Exam Date": "April 12, 2025",
+        "Exam Date": "September 07, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "205 (111181048-1112330148) 206 (1112410008-1142330034)"
+        "Room": "205 (111182021-1112420104) 206 (1112420113-1142330036)"
     },
     {
         "Program": "BBA",
         "Course Code": "BMT 2113/QNT 2105",
         "Course Title": "Business Mathematics II/Mathematics for Business Decision",
         "Section": "D",
-        "Teacher": "MA",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "207 (111191154-1112330183) 208 (1112330222-1142420022)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BMT 2113/QNT 2105",
-        "Course Title": "Business Mathematics II/Mathematics for Business Decision",
-        "Section": "E",
-        "Teacher": "ShAz",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "209 (111183044-1142410019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1011",
-        "Course Title": "English I",
-        "Section": "A",
-        "Teacher": "AnAn",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "202 (111213106-1112510113) 203 (1112510117-1212510007)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1011",
-        "Course Title": "English I",
-        "Section": "B",
-        "Teacher": "AnAn",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (111221155-1112510082) 205 (1112510087-1142510029)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1011",
-        "Course Title": "English I",
-        "Section": "C",
-        "Teacher": "RnIm",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "206 (1112410164-1112510083) 207 (1112510088-1142510033)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1011",
-        "Course Title": "English I",
-        "Section": "E",
-        "Teacher": "SMMS",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "208 (1112410144-1112510085) 209 (1112510091-1142510031)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1011/ENG 1105",
-        "Course Title": "English I/Intensive English I",
-        "Section": "D",
-        "Teacher": "TFz",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "210 (111193010-1112510070) 211 (1112510072-1142510034)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3224/MGT 4132",
-        "Course Title": "Operations Management/Production and Operations Management",
-        "Section": "A",
-        "Teacher": "NHMS",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "210 (111191052-1112230072) 211 (1112230105-121193001)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3224/MGT 4132",
-        "Course Title": "Operations Management/Production and Operations Management",
-        "Section": "B",
-        "Teacher": "MdAHq",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "222 (111171117-1112230106) 223 (1112230120-1112330019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3224/MGT 4132",
-        "Course Title": "Operations Management/Production and Operations Management",
-        "Section": "C",
         "Teacher": "MSna",
-        "Exam Date": "April 12, 2025",
+        "Exam Date": "September 07, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "224 (111201061-1112230094) 225 (1112230114-121221006)"
+        "Room": "207 (111182132-1112330199) 208 (1112330232-1142430005)"
     },
     {
         "Program": "BBA",
-        "Course Code": "ACN 4135",
-        "Course Title": "Taxation",
+        "Course Code": "ENG 101/ENG 1011/ENG 1105",
+        "Course Title": "English I/Intensive English I",
         "Section": "A",
-        "Teacher": "MHM",
-        "Exam Date": "April 12, 2025",
+        "Teacher": "UH",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "202 (1112410046-1112520035) 203 (1112520037-1212520008)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ENG 101/ENG 1011/ENG 1105",
+        "Course Title": "English I/Intensive English I",
+        "Section": "B",
+        "Teacher": "RnIm",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "204 (111221070-1112520033) 205 (1112520036-1142520003)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ENG 101/ENG 1011/ENG 1105",
+        "Course Title": "English I/Intensive English I",
+        "Section": "C",
+        "Teacher": "MaShu",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "206 (1112420213-1212510007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 4333",
+        "Course Title": "Financial Analytics",
+        "Section": "A",
+        "Teacher": "MUd",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "Computer Lab 1 (0226) (111191071-1112230162)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3224/MGT 4132",
+        "Course Title": "Operations Management/Production and Operations Management",
+        "Section": "A",
+        "Teacher": "MSna",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "208 (111181100-114222022)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3224/MGT 4132",
+        "Course Title": "Operations Management/Production and Operations Management",
+        "Section": "B",
+        "Teacher": "MSna",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "209 (111173038-1112230195) 210 (1112230215-121213007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3224/MGT 4132",
+        "Course Title": "Operations Management/Production and Operations Management",
+        "Section": "C",
+        "Teacher": "NHMS",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "211 (111191154-1112310019) 222 (1112310020-1212310017)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ENG 1013/ENG 103/ENG 1207",
+        "Course Title": "English II/Intensive English II",
+        "Section": "A",
+        "Teacher": "RnIm",
+        "Exam Date": "September 07, 2025",
         "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "222 (111172099-111221179)"
+        "Room": "210 (111221155-1112510065) 211 (1112510069-121221006)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ENG 1013/ENG 103/ENG 1207",
+        "Course Title": "English II/Intensive English II",
+        "Section": "B",
+        "Teacher": "UH",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "222 (1112230236-1112510112) 223 (1112510117-1212510003)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ENG 1013/ENG 103/ENG 1207",
+        "Course Title": "English II/Intensive English II",
+        "Section": "C",
+        "Teacher": "UH",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "224 (111222028-1112510080) 225 (1112510105-1212510002)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ENG 1013/ENG 103/ENG 1207",
+        "Course Title": "English II/Intensive English II",
+        "Section": "D",
+        "Teacher": "SaAn",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "228 (1112320016-1112510082) 229 (1112510086-1212510004)"
     },
     {
         "Program": "BBA in AIS",
-        "Course Code": "AIS 2305",
-        "Course Title": "Theory & Practice of Taxation",
+        "Course Code": "AIS 3209",
+        "Course Title": "Tax Accounting and Tax Planning",
+        "Section": "A",
+        "Teacher": "MHM",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "209 (114182001-1142330033)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MKT 4204",
+        "Course Title": "Strategic Marketing",
+        "Section": "A",
+        "Teacher": "KA",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "201 (111171185-111222143)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 4345",
+        "Course Title": "Poverty Alleviation and Microfinance",
+        "Section": "A",
+        "Teacher": "AAsh",
+        "Exam Date": "September 07, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "201 (121193001-1212310007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 2318",
+        "Course Title": "Organizational Behavior",
+        "Section": "A",
+        "Teacher": "SK",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "203 (111201211-1112330104) 204 (1112330115-1112420057)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 2318",
+        "Course Title": "Organizational Behavior",
+        "Section": "B",
+        "Teacher": "SK",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "205 (111191091-1112330227) 206 (1112410004-1112420162)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 2318",
+        "Course Title": "Organizational Behavior",
+        "Section": "C",
+        "Teacher": "IS",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "207 (111202059-1112330002) 208 (1112330012-1142330036)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3122",
+        "Course Title": "Human Resources Management",
+        "Section": "A",
+        "Teacher": "HRJ",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "203 (111181087-1112230163) 204 (1112230185-1112330196)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3122",
+        "Course Title": "Human Resources Management",
+        "Section": "B",
+        "Teacher": "BJ",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "205 (111202175-1112410044)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3122",
+        "Course Title": "Human Resources Management",
+        "Section": "C",
+        "Teacher": "BJ",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "206 (111193110-1112310070) 207 (1112310103-1112420100)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 4356",
+        "Course Title": "Strategic Management",
+        "Section": "A",
+        "Teacher": "GCD",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "208 (111191106-111221032) 209 (111221038-1142310007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 4356",
+        "Course Title": "Strategic Management",
+        "Section": "B",
+        "Teacher": "ASSZ",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "210 (111171117-111213095) 211 (111213109-114221028)"
+    },
+    {
+        "Program": "BBA in AIS",
+        "Course Code": "MGT 2208",
+        "Course Title": "Human Resource Management & Organizational Behavior",
+        "Section": "A",
+        "Teacher": "IS",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "202 (114221005-1142410014)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 1303",
+        "Course Title": "Mathematics for Business and Economics I",
+        "Section": "A",
+        "Teacher": "SCT",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "202 (1212410021-1212520009)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "HRM 4366",
+        "Course Title": "Strategic Human Resource Management",
+        "Section": "A",
+        "Teacher": "ASSZ",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "210 (111153153-111222168)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 1307",
+        "Course Title": "Principles of Management",
+        "Section": "A",
+        "Teacher": "BJ",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "211 (111202122-1142510028)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 1307",
+        "Course Title": "Principles of Management",
+        "Section": "B",
+        "Teacher": "SK",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "222 (111211057-1112430047) 223 (1112430052-1212310017)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 1307",
+        "Course Title": "Principles of Management",
+        "Section": "C",
+        "Teacher": "JHC",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "224 (111191052-1112420002) 225 (1112420062-1142430007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 1307",
+        "Course Title": "Principles of Management",
+        "Section": "D",
+        "Teacher": "JHC",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "228 (111193050-1112420064) 229 (1112420079-1142510014)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 1307",
+        "Course Title": "Principles of Management",
+        "Section": "E",
+        "Teacher": "SK",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "201 (111192005-1112430024) 202 (1112430045-1142430014)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SCM 4313",
+        "Course Title": "Service Operation Management",
+        "Section": "A",
+        "Teacher": "MaSa",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "203 (111183014-1112230274)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 4353",
+        "Course Title": "Game Theory and Applications",
+        "Section": "A",
+        "Teacher": "SCT",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "209 (121212002-1212320007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 4340/AIS 2306",
+        "Course Title": "Auditing/Principles of Auditing",
         "Section": "A",
         "Teacher": "MTH",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "223 (114172005-1142330033)"
-    },
-    {
-        "Program": "BSECO",
-        "Course Code": "ECO 3331",
-        "Course Title": "Economics of Cost Benefit Analysis",
-        "Section": "A",
-        "Teacher": "TJT",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "224 (121212002-1212310014)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1013",
-        "Course Title": "English II",
-        "Section": "A",
-        "Teacher": "AnAn",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "225 (111222012-1112430099) 228 (1112430105-1212430013)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1013",
-        "Course Title": "English II",
-        "Section": "B",
-        "Teacher": "AShK",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "201 (1112410149-1112430092) 202 (1112430098-1142430019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1013",
-        "Course Title": "English II",
-        "Section": "C",
-        "Teacher": "ShMSh",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "203 (111221178-1112430086) 204 (1112430094-1212430006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1013",
-        "Course Title": "English II",
-        "Section": "D",
-        "Teacher": "AShK",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "205 (111221037-1112430073) 206 (1112430074-1212430009)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ENG 1013",
-        "Course Title": "English II",
-        "Section": "E",
-        "Teacher": "UH",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "207 (1112310137-1212420002)"
-    },
-    {
-        "Program": "BSECO",
-        "Course Code": "ECO 2302/ECO 2305/ECO 2315",
-        "Course Title": "Intermediate Macroeconomic Theory I/Intermediate Macroeconomics/Intermediate Macroeconomics I",
-        "Section": "A",
-        "Teacher": "MAkHn",
-        "Exam Date": "April 12, 2025",
+        "Exam Date": "September 08, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "208 (1212310009-1212330029) 209 (1212330033-1212420015)"
+        "Room": "202 (111203021-1142330022)"
     },
     {
         "Program": "BBA",
-        "Course Code": "MKT 4102",
-        "Course Title": "Services Marketing",
+        "Course Code": "BSA 4316",
+        "Course Title": "Big Data Analytics and Data Visualization",
         "Section": "A",
-        "Teacher": "KA",
-        "Exam Date": "April 12, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "201 (111122298-111211006) 202 (111211034-111222130)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 2318",
-        "Course Title": "Organizational Behavior",
-        "Section": "A",
-        "Teacher": "JHC",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "202 (111201140-1112320034) 203 (1112320039-1112410092)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 2318",
-        "Course Title": "Organizational Behavior",
-        "Section": "B",
-        "Teacher": "JHC",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "201 (111193074-1112410013)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 2318",
-        "Course Title": "Organizational Behavior",
-        "Section": "C",
-        "Teacher": "SK",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "205 (111192002-1112330046) 206 (1112330049-1112420184)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 2318",
-        "Course Title": "Organizational Behavior",
-        "Section": "D",
-        "Teacher": "SK",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "207 (111201239-1112330235)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3122",
-        "Course Title": "Human Resources Management",
-        "Section": "A",
-        "Teacher": "HRJ",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "203 (111212030-1112330062)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3122",
-        "Course Title": "Human Resources Management",
-        "Section": "B",
-        "Teacher": "ASSZ",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (111201106-1112230107) 205 (1112230112-1112330019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3122",
-        "Course Title": "Human Resources Management",
-        "Section": "C",
-        "Teacher": "HRJ",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "206 (111191106-111222111) 207 (111222143-1112410146)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 4356",
-        "Course Title": "Strategic Management",
-        "Section": "A",
-        "Teacher": "ASSZ",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "208 (111183098-111211025) 209 (111211034-111222168)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 4356",
-        "Course Title": "Strategic Management",
-        "Section": "B",
-        "Teacher": "NAr",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "210 (111143295-114221021)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 1307",
-        "Course Title": "Principles of Management",
-        "Section": "A",
-        "Teacher": "BJ",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "208 (1112230275-1142410017)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 1307",
-        "Course Title": "Principles of Management",
-        "Section": "B",
-        "Teacher": "BJ",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "209 (1112230033-1112420085) 210 (1112420095-1212330025)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 1307",
-        "Course Title": "Principles of Management",
-        "Section": "C",
-        "Teacher": "Jkn",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "211 (111193030-1112420046) 222 (1112420051-121221006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 1307",
-        "Course Title": "Principles of Management",
-        "Section": "D",
-        "Teacher": "NAr",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "223 (111193010-1112410106) 224 (1112410108-1142420018)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 1307",
-        "Course Title": "Principles of Management",
-        "Section": "E",
-        "Teacher": "GCD",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "225 (1112310147-1112420039) 228 (1112420045-1142420026)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SCM 4102",
-        "Course Title": "Logistics Management",
-        "Section": "A",
-        "Teacher": "SdHn",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "201 (111181086-111201243) 202 (111201246-1112230274)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 4344/AIS 4301",
-        "Course Title": "Advanced Management Accounting/Management Accounting-II",
-        "Section": "A",
-        "Teacher": "JBS",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "202 (111172099-1142310007)"
-    },
-    {
-        "Program": "BSECO",
-        "Course Code": "ECO 3326",
-        "Course Title": "International Trade",
-        "Section": "A",
-        "Teacher": "MAkHn",
-        "Exam Date": "April 13, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "201 (121203002-1212320003)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 1102",
-        "Course Title": "Introduction to Business",
-        "Section": "A",
-        "Teacher": "SK",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "202 (111212015-1112510091) 203 (1112510092-1212510007)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 1102",
-        "Course Title": "Introduction to Business",
-        "Section": "B",
-        "Teacher": "SK",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (1112230050-1112510082) 205 (1112510093-1212420015)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 1102",
-        "Course Title": "Introduction to Business",
-        "Section": "C",
-        "Teacher": "SBAr",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "206 (111222040-1112510075) 207 (1112510080-1142510028)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 1102",
-        "Course Title": "Introduction to Business",
-        "Section": "D",
-        "Teacher": "KA",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "208 (1112330034-1112510105) 209 (1112510108-1212310003)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 1102",
-        "Course Title": "Introduction to Business",
-        "Section": "E",
-        "Teacher": "SBAr",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "210 (1112420204-1112510090) 211 (1112510097-1212410019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 1102",
-        "Course Title": "Introduction to Business",
-        "Section": "F",
         "Teacher": "AIK",
-        "Exam Date": "April 15, 2025",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "Computer Lab 1 (0226) (111191106-1112230062)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 2303",
+        "Course Title": "Mathematics for Business and Economics II",
+        "Section": "A",
+        "Teacher": "TrAd",
+        "Exam Date": "September 08, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "201 (1212310009-1212430013)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BUS 1102",
+        "Course Title": "Introduction to Business",
+        "Section": "A",
+        "Teacher": "MaSa",
+        "Exam Date": "September 09, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "222 (1112330106-1112510129) 223 (1112510139-1212410015)"
+        "Room": "202 (1112230150-1112430124) 203 (1112430133-1212510005)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BUS 1102",
+        "Course Title": "Introduction to Business",
+        "Section": "B",
+        "Teacher": "SeyS",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "204 (1112230260-1112520029) 205 (1112520032-1212430013)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BUS 1102",
+        "Course Title": "Introduction to Business",
+        "Section": "C",
+        "Teacher": "SeyS",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "206 (1112330113-1112520038) 207 (1112520039-1142520003)"
     },
     {
         "Program": "BBA",
@@ -465,9 +425,9 @@
         "Course Title": "Marketing Management",
         "Section": "A",
         "Teacher": "SeyS",
-        "Exam Date": "April 15, 2025",
+        "Exam Date": "September 09, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "202 (111183044-111222112) 203 (1112230009-1112310157)"
+        "Room": "203 (111191091-1112320124)"
     },
     {
         "Program": "BBA",
@@ -475,349 +435,339 @@
         "Course Title": "Marketing Management",
         "Section": "B",
         "Teacher": "SeyS",
-        "Exam Date": "April 15, 2025",
+        "Exam Date": "September 09, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (111192088-111222032) 205 (111222037-1112330019)"
+        "Room": "208 (111193020-1112410146)"
     },
     {
         "Program": "BBA",
-        "Course Code": "MKT 4203",
-        "Course Title": "Integrated Communication",
+        "Course Code": "MKT 3336",
+        "Course Title": "Marketing Management",
+        "Section": "C",
+        "Teacher": "MdSA",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "205 (111201075-1112230137) 206 (1112230172-1112330220)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MKT 4101",
+        "Course Title": "Consumer Behavior",
         "Section": "A",
         "Teacher": "MKHn",
-        "Exam Date": "April 15, 2025",
+        "Exam Date": "September 09, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "201 (111162027-111221016)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 4201",
-        "Course Title": "Employability and Entrepreneurial Success",
-        "Section": "A",
-        "Teacher": "IS",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "201 (111193080-111221002) 203 (111221015-114222016)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BUS 4201",
-        "Course Title": "Employability and Entrepreneurial Success",
-        "Section": "B",
-        "Teacher": "IS",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "204 (111171185-111213027) 205 (111213043-1142230010)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MKT 2320",
-        "Course Title": "Introduction to Marketing",
-        "Section": "A",
-        "Teacher": "MdSA",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "202 (111193020-1112230158) 203 (1112230160-1212230003)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MKT 2320",
-        "Course Title": "Introduction to Marketing",
-        "Section": "B",
-        "Teacher": "SRA",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "204 (111193010-1112310080) 205 (1112310093-1212330034)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MKT 2320",
-        "Course Title": "Introduction to Marketing",
-        "Section": "C",
-        "Teacher": "MdSA",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "206 (111193123-1112230140) 207 (1112230170-1142330006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "A",
-        "Teacher": "IS",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "206 (111221085-1112420023) 207 (1112420025-1142430015)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "B",
-        "Teacher": "MdMR",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "208 (111202172-1212320006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "C",
-        "Teacher": "ShaIs",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "209 (111211020-1112410134) 210 (1112410163-1142430007)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "D",
-        "Teacher": "ShaIs",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "211 (111221051-1112420008) 222 (1112420015-1142430009)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "E",
-        "Teacher": "ShaIs",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "223 (111213057-1112420104) 224 (1112420123-1142430004)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "F",
-        "Teacher": "MD",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "225 (111193110-1112410075) 228 (1112410076-1212420005)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "SOC 1105",
-        "Course Title": "Sociology and Psychology",
-        "Section": "G",
-        "Teacher": "ShaIs",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "201 (111211033-1112430032) 202 (1112430048-1212330022)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BSA 4101",
-        "Course Title": "Business Database System Development",
-        "Section": "A",
-        "Teacher": "AIK",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "226 (Computer Lab) (111191106-1112230062)"
+        "Room": "201 (111171117-111222130)"
     },
     {
         "Program": "BSECO",
-        "Course Code": "ECO 3335",
-        "Course Title": "Natural Resource Economics",
-        "Section": "A",
-        "Teacher": "TaA",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "204 (121193001-1212410004)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "LAW 2106/LAW 4151",
-        "Course Title": "Business Law/Commercial & Industrial Laws",
-        "Section": "A",
-        "Teacher": "Jkn",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "205 (111181163-111221111) 206 (111221139-1142330033)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "LAW 2106/LAW 4151",
-        "Course Title": "Business Law/Commercial & Industrial Laws",
-        "Section": "B",
-        "Teacher": "Jkn",
-        "Exam Date": "April 15, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "207 (111143295-111221142) 208 (111221173-1142330025)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "A",
-        "Teacher": "RuRb",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "226 (Computer Lab) (111193129-1112430030) 226 (Computer Lab) (1112430034-1142430015)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "D",
-        "Teacher": "RuRb",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "227 (Computer Lab) (1112230265-1112430094) 227 (Computer Lab) (1112430100-1212510006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "F",
-        "Teacher": "RuRb",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "326 (Computer Lab) (111201076-1112430014) 326 (Computer Lab) (1112430026-1142430018)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 2319",
-        "Course Title": "Principles of Finance",
-        "Section": "A",
-        "Teacher": "MUd",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "209 (111183111-1112310030) 210 (1112310038-1142320006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 2319",
-        "Course Title": "Principles of Finance",
-        "Section": "B",
-        "Teacher": "ShAz",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "211 (111183076-1212330037)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 2319",
-        "Course Title": "Principles of Finance",
-        "Section": "C",
-        "Teacher": "ZN",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "222 (111161188-1112320009) 223 (1112320010-1142320005)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 3123",
-        "Course Title": "Managerial Finance",
-        "Section": "A",
-        "Teacher": "MEH",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "224 (111182059-111222030) 225 (111222034-121203002)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 3123",
-        "Course Title": "Managerial Finance",
-        "Section": "B",
-        "Teacher": "MEH",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "228 (111172068-111221062) 207 (111221102-114222007)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 3123",
-        "Course Title": "Managerial Finance",
-        "Section": "C",
-        "Teacher": "MEH",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "203 (111183011-114221013)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 4218",
-        "Course Title": "Financial Statements Analysis",
-        "Section": "A",
-        "Teacher": "MEH",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "201 (111201069-111221091) 202 (111221119-1142430019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "B",
-        "Teacher": "MdSA",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "327 (Computer Lab) (111203003-1112430081) 327 (Computer Lab) (1112430091-1212330008)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "C",
-        "Teacher": "ZN",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "422 (Computer Lab) (1112330154-1112430076) 422 (Computer Lab) (1112430080-1212430013)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "E",
-        "Teacher": "MdSA",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "522 (Computer Lab) (111202004-1112430153) 522 (Computer Lab) (1112430155-1212430011)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 1206/CST 1303",
-        "Course Title": "Computer Application in Business/Computer Applications",
-        "Section": "G",
-        "Teacher": "ZN",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "426 (Computer Lab) (1112230219-1112430139) 426 (Computer Lab) (1112430140-1142510028)"
-    },
-    {
-        "Program": "BSECO",
-        "Course Code": "ECO 3350",
-        "Course Title": "Development Economics",
+        "Course Code": "ECO 4375",
+        "Course Title": "History of Economic Thought",
         "Section": "A",
         "Teacher": "MOF",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "203 (121193008-1212310018)"
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "209 (121212001-1212410017)"
     },
     {
         "Program": "BBA",
-        "Course Code": "SCM 4103",
-        "Course Title": "Global Sourcing and Procurement",
+        "Course Code": "BSA 4201",
+        "Course Title": "Applied Decision Modeling",
+        "Section": "A",
+        "Teacher": "MdQ",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "Computer Lab 2 (0227) (111191106-1112230062)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MKT 2320",
+        "Course Title": "Introduction to Marketing",
+        "Section": "A",
+        "Teacher": "MKHn",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "202 (111211014-1212330023)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MKT 2320",
+        "Course Title": "Introduction to Marketing",
+        "Section": "B",
+        "Teacher": "MdSA",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "203 (111192073-1112330077) 204 (1112330116-1212330039)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MKT 2320",
+        "Course Title": "Introduction to Marketing",
+        "Section": "C",
+        "Teacher": "KA",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "223 (111191154-1112330016) 224 (1112330093-1212410013)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SOC 1105",
+        "Course Title": "Sociology and Psychology",
+        "Section": "A",
+        "Teacher": "TMT",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "203 (1112310046-1112430103) 204 (1112430116-121221005)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SOC 1105",
+        "Course Title": "Sociology and Psychology",
+        "Section": "B",
+        "Teacher": "TaIm",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "205 (111212015-1112420127) 206 (1112420145-1212420013)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SOC 1105",
+        "Course Title": "Sociology and Psychology",
+        "Section": "C",
+        "Teacher": "MD",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "207 (111212045-1112430067) 208 (1112430068-1212410020)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SOC 1105",
+        "Course Title": "Sociology and Psychology",
+        "Section": "D",
+        "Teacher": "NaHu",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "209 (111211079-1212330018)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SOC 1105",
+        "Course Title": "Sociology and Psychology",
+        "Section": "E",
+        "Teacher": "NaSa",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "210 (111221054-1112430098) 211 (1112430109-1212230017)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "LAW 2106/LAW 4151",
+        "Course Title": "Business Law/Commercial & Industrial Laws",
+        "Section": "A",
+        "Teacher": "Jkn",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "208 (111193015-111222143) 209 (1112230005-114222015)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "LAW 2106/LAW 4151",
+        "Course Title": "Business Law/Commercial & Industrial Laws",
+        "Section": "B",
+        "Teacher": "Jkn",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "210 (111151098-111221076) 211 (111221126-1142420022)"
+    },
+    {
+        "Program": "BBA in AIS",
+        "Course Code": "LAW 3328",
+        "Course Title": "Corporate Law & Secretarial Practice",
+        "Section": "A",
+        "Teacher": "Jkn",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "201 (114182001-114222022)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 4386",
+        "Course Title": "Energy Economics and Policy",
+        "Section": "A",
+        "Teacher": "MOF",
+        "Exam Date": "September 09, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "207 (121211009-1212330026)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 1206/CST 1303",
+        "Course Title": "Computer Application in Business/Computer Applications",
+        "Section": "A",
+        "Teacher": "RuRb",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "Computer Lab 6 (0524) (111183098-1112510062) Computer Lab 6 (0524) (1112510070-1212410008)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 1206/CST 1303",
+        "Course Title": "Computer Application in Business/Computer Applications",
+        "Section": "C",
+        "Teacher": "SIT",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "Computer Lab 1 (0226) (111191154-1112430033) Computer Lab 1 (0226) (1112430117-1212410013)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 1206/CST 1303",
+        "Course Title": "Computer Application in Business/Computer Applications",
+        "Section": "F",
+        "Teacher": "SIT",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "Computer Lab 2 (0227) (111211011-1212520009)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 2319",
+        "Course Title": "Principles of Finance",
+        "Section": "A",
+        "Teacher": "ZN",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "223 (111163108-1112310079) 224 (1112310101-121221003)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 2319",
+        "Course Title": "Principles of Finance",
+        "Section": "B",
+        "Teacher": "ZN",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "204 (111201094-1112310097) 205 (1112310131-1212330034)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 2319",
+        "Course Title": "Principles of Finance",
+        "Section": "C",
+        "Teacher": "MEH",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "206 (111202059-1112320064) 207 (1112320072-1212330008)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 2319",
+        "Course Title": "Principles of Finance",
+        "Section": "D",
+        "Teacher": "NRn",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "222 (111171276-121213006)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 3123",
+        "Course Title": "Managerial Finance",
+        "Section": "A",
+        "Teacher": "ZN",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "207 (111191115-111222105) 208 (111222125-1142230010)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 3123",
+        "Course Title": "Managerial Finance",
+        "Section": "B",
+        "Teacher": "MEH",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "209 (111182059-1112310088) 210 (1112310116-1142310007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 3123",
+        "Course Title": "Managerial Finance",
+        "Section": "C",
+        "Teacher": "MEH",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "211 (111192096-1142230024)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 4219",
+        "Course Title": "Securities Analysis and Portfolio Management",
+        "Section": "A",
+        "Teacher": "MMs",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "201 (111191026-111221137) 202 (111221154-114221028)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 4342/AIS 3310/AIS 3311",
+        "Course Title": "Accounting Information Systems/Accounting Information Systems and Practice",
+        "Section": "A",
+        "Teacher": "MTH",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "Computer Lab 1 (0226) (111211025-114222022)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 1206/CST 1303",
+        "Course Title": "Computer Application in Business/Computer Applications",
+        "Section": "B",
+        "Teacher": "JHC",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "Computer Lab 2 (0227) (1112430127-1112510130) Computer Lab 2 (0227) (1112510135-1212420007)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 1206/CST 1303",
+        "Course Title": "Computer Application in Business/Computer Applications",
+        "Section": "D",
+        "Teacher": "MdSA",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "Computer Lab 6 (0524) (111201050-1112510045) Computer Lab 6 (0524) (1112510063-1142510033)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 1206/CST 1303",
+        "Course Title": "Computer Application in Business/Computer Applications",
+        "Section": "E",
+        "Teacher": "MdSA",
+        "Exam Date": "September 10, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "Computer Lab 3 (0327) (111193050-1112510079) Computer Lab 3 (0327) (1112510081-1212420004)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SCM 4202",
+        "Course Title": "Enterprise Resource Planning (ERP)",
         "Section": "A",
         "Teacher": "SdHn",
-        "Exam Date": "April 16, 2025",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "201 (111182059-111201247) 202 (111202100-1112230274)"
+        "Room": "201 (111181086-111212057) 202 (111212079-1112230274)"
     },
     {
         "Program": "BBA",
         "Course Code": "BUS 2112",
         "Course Title": "Business Communications",
         "Section": "A",
-        "Teacher": "MKHn",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "KMR",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "202 (111201234-1212420011)"
+        "Room": "202 (111221033-1112410106) 203 (1112410145-1212330035)"
     },
     {
         "Program": "BBA",
@@ -825,19 +775,19 @@
         "Course Title": "Business Communications",
         "Section": "B",
         "Teacher": "KMR",
-        "Exam Date": "April 16, 2025",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "203 (111191052-1112330132) 204 (1112330133-1212410021)"
+        "Room": "204 (111193124-1112410050) 205 (1112410054-1212420010)"
     },
     {
         "Program": "BBA",
         "Course Code": "BUS 2112",
         "Course Title": "Business Communications",
         "Section": "C",
-        "Teacher": "KMR",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "MKHn",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "205 (111211070-1112330065) 206 (1112330095-1212410013)"
+        "Room": "206 (111212042-121221010)"
     },
     {
         "Program": "BBA",
@@ -845,49 +795,49 @@
         "Course Title": "Business Communications",
         "Section": "D",
         "Teacher": "MKHn",
-        "Exam Date": "April 16, 2025",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "207 (111222010-1212320010)"
+        "Room": "207 (111201139-1112410097) 208 (1112410141-1212510006)"
     },
     {
         "Program": "BBA",
-        "Course Code": "BUS 3339",
-        "Course Title": "Business Research Methodology",
+        "Course Code": "MGT 3229",
+        "Course Title": "Entrepreneurship and Business Plan Development",
         "Section": "A",
-        "Teacher": "MHAMn",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "Jkn",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "203 (111193099-111222006) 204 (111222015-1142230021)"
+        "Room": "201 (111181100-1112310010)"
     },
     {
         "Program": "BBA",
-        "Course Code": "BUS 3339",
-        "Course Title": "Business Research Methodology",
+        "Course Code": "MGT 3229",
+        "Course Title": "Entrepreneurship and Business Plan Development",
         "Section": "B",
-        "Teacher": "MHAMn",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "NAr",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "205 (111201081-111221092) 206 (111221094-114221011)"
+        "Room": "204 (111141415-111222026) 205 (111222050-1212420011)"
     },
     {
         "Program": "BBA",
-        "Course Code": "BUS 3339",
-        "Course Title": "Business Research Methodology",
+        "Course Code": "MGT 3229",
+        "Course Title": "Entrepreneurship and Business Plan Development",
         "Section": "C",
-        "Teacher": "MHAMn",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "Jkn",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "207 (111192018-1142430019)"
+        "Room": "206 (111181087-1112310167)"
     },
     {
         "Program": "BBA",
         "Course Code": "MIS 2218",
         "Course Title": "Advanced Computer Applications in Business",
         "Section": "A",
-        "Teacher": "AIK",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "AAFd",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "226 (Computer Lab) (111192002-1112330109) 226 (Computer Lab) (1112330120-1142330010)"
+        "Room": "Computer Lab 1 (0226) (111193116-1112410068) Computer Lab 1 (0226) (1112410115-1142410014)"
     },
     {
         "Program": "BBA",
@@ -895,29 +845,29 @@
         "Course Title": "Advanced Computer Applications in Business",
         "Section": "B",
         "Teacher": "RuRb",
-        "Exam Date": "April 16, 2025",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "227 (Computer Lab) (111211091-1142320006)"
+        "Room": "Computer Lab 2 (0227) (111193020-1112410110) Computer Lab 4 (0427) (1112420004-1142330026)"
     },
     {
         "Program": "BBA",
         "Course Code": "MIS 2218",
         "Course Title": "Advanced Computer Applications in Business",
         "Section": "C",
-        "Teacher": "AAFd",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "RuRb",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "422 (Computer Lab) (111201061-1112330088) 422 (Computer Lab) (1112330141-1142410015)"
+        "Room": "Computer Lab 3 (0327) (111212035-1112410047) Computer Lab 3 (0327) (1112410066-1142410002)"
     },
     {
         "Program": "BBA",
         "Course Code": "MIS 2218",
         "Course Title": "Advanced Computer Applications in Business",
         "Section": "D",
-        "Teacher": "AAFd",
-        "Exam Date": "April 16, 2025",
+        "Teacher": "AIK",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "423 (Computer Lab) (111201163-1112230267) 423 (Computer Lab) (1112310159-1142330007)"
+        "Room": "Computer Lab 4 (0427) (111183024-1142420019)"
     },
     {
         "Program": "BBA",
@@ -925,109 +875,59 @@
         "Course Title": "Advanced Computer Applications in Business",
         "Section": "E",
         "Teacher": "RuRb",
-        "Exam Date": "April 16, 2025",
+        "Exam Date": "September 10, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "424 (Computer Lab) (111201201-1112310056) 424 (Computer Lab) (1112310077-1112420094)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MIS 2218",
-        "Course Title": "Advanced Computer Applications in Business",
-        "Section": "F",
-        "Teacher": "AIK",
-        "Exam Date": "April 16, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "426 (Computer Lab) (111213057-1142330028)"
+        "Room": "Computer Lab 5 (0523) (111191070-1112310128) Computer Lab 5 (0523) (1112310129-1142410013)"
     },
     {
         "Program": "BBA",
         "Course Code": "ACN 1205/AIS 1201",
         "Course Title": "Financial Accounting I/Principles of Accounting",
         "Section": "A",
-        "Teacher": "KYH",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "301 (111201038-1112430082) 203 (1112430084-1212420013)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1205/AIS 1201",
-        "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "B",
-        "Teacher": "ItJn",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (111213106-1112420149) 205 (1112420174-1212330036)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1205/AIS 1201",
-        "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "C",
         "Teacher": "MHM",
-        "Exam Date": "April 17, 2025",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "206 (111213098-1112420229) 207 (1112430003-1142430012)"
+        "Room": "209 (111212035-1112510012) 210 (1112510021-1142510028)"
     },
     {
         "Program": "BBA",
         "Course Code": "ACN 1205/AIS 1201",
         "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "D",
-        "Teacher": "SIT",
-        "Exam Date": "April 17, 2025",
+        "Section": "B",
+        "Teacher": "MHM",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "208 (1112310120-1112420084) 209 (1112420085-1212330033)"
+        "Room": "211 (111221033-1112510058) 222 (1112510062-1142510031)"
     },
     {
         "Program": "BBA",
         "Course Code": "ACN 1205/AIS 1201",
         "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "E",
+        "Section": "C",
         "Teacher": "SKa",
-        "Exam Date": "April 17, 2025",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "210 (1112230273-1142430001)"
+        "Room": "223 (1112310140-1112510126) 224 (1112510128-1142510033)"
     },
     {
         "Program": "BBA",
         "Course Code": "ACN 1205/AIS 1201",
         "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "F",
-        "Teacher": "MHM",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "211 (1112310057-1112420208) 222 (1112430008-1212410020)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1205/AIS 1201",
-        "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "G",
-        "Teacher": "FAhS",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "223 (1112230275-1112420165) 224 (1112420175-1212330018)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1205/AIS 1201",
-        "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "H",
-        "Teacher": "IZC",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "225 (111191071-1112420159) 228 (1112420213-1142430015)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1205/AIS 1201",
-        "Course Title": "Financial Accounting I/Principles of Accounting",
-        "Section": "I",
+        "Section": "D",
         "Teacher": "IJ",
-        "Exam Date": "April 17, 2025",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "201 (111213123-1112420219) 202 (1112420220-1212330034)"
+        "Room": "225 (111192048-1112430139) 228 (1112430158-121221006)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 1205/AIS 1201",
+        "Course Title": "Financial Accounting I/Principles of Accounting",
+        "Section": "E",
+        "Teacher": "IZC",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "229 (111191071-121221005)"
     },
     {
         "Program": "BBA",
@@ -1035,319 +935,389 @@
         "Course Title": "Advanced Accounting-I/Advanced Financial Accounting - I",
         "Section": "A",
         "Teacher": "MTH",
-        "Exam Date": "April 17, 2025",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "203 (111183098-1142330030)"
+        "Room": "202 (111203021-1142410019)"
     },
     {
-        "Program": "BBA in AIS",
-        "Course Code": "AIS 4208",
-        "Course Title": "Advanced Accounting-III",
+        "Program": "BBA",
+        "Course Code": "ACN 4238/AIS 3107",
+        "Course Title": "Advanced Accounting-II/Advanced Financial Accounting - II",
         "Section": "A",
         "Teacher": "JBS",
-        "Exam Date": "April 17, 2025",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (114182001-1142310007)"
+        "Room": "203 (111172099-1142230022)"
     },
     {
         "Program": "BBA",
-        "Course Code": "BSA 4401",
-        "Course Title": "Business Analytics Capstone",
+        "Course Code": "BSA 4202",
+        "Course Title": "Advanced Analytics",
         "Section": "A",
-        "Teacher": "MdQ",
-        "Exam Date": "April 17, 2025",
+        "Teacher": "AIK",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "226 (Computer Lab) (111191106-1112230062)"
+        "Room": "Computer Lab 1 (0226) (111191106-1112230062)"
     },
     {
         "Program": "BBA",
-        "Course Code": "HRM 4269",
-        "Course Title": "Learning and Development Management",
+        "Course Code": "HRM 4153",
+        "Course Title": "Human Resource Planning",
         "Section": "A",
-        "Teacher": "HRJ",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "201 (111172068-1112230074)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1309/AIS 1302",
-        "Course Title": "Financial Accounting II/Intermediate Accounting",
-        "Section": "A",
-        "Teacher": "IZC",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "201 (111162027-1142410003)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1309/AIS 1302",
-        "Course Title": "Financial Accounting II/Intermediate Accounting",
-        "Section": "B",
-        "Teacher": "JBS",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "203 (111201106-1112410050) 204 (1112410052-1142410019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1309/AIS 1302",
-        "Course Title": "Financial Accounting II/Intermediate Accounting",
-        "Section": "C",
-        "Teacher": "ItJn",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "205 (111193110-1112330217) 206 (1112330224-1142410006)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 1309/AIS 1302",
-        "Course Title": "Financial Accounting II/Intermediate Accounting",
-        "Section": "D",
-        "Teacher": "MTH",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "207 (111193080-1112330018) 208 (1112330022-1142420022)"
-    },
-    {
-        "Program": "BSECO",
-        "Course Code": "ECO 3301/ECO 3303",
-        "Course Title": "Intermediate Microeconomic Theory II/Intermediate Microeconomics II",
-        "Section": "A",
-        "Teacher": "AAsh",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "202 (121212004-1212410004)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3342",
-        "Course Title": "Business Ethics",
-        "Section": "A",
-        "Teacher": "SeyS",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "203 (111143145-111222012) 204 (111222034-1112330074)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3342",
-        "Course Title": "Business Ethics",
-        "Section": "B",
-        "Teacher": "SeyS",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "205 (111172099-1112320122)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3342",
-        "Course Title": "Business Ethics",
-        "Section": "C",
         "Teacher": "NAr",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "206 (111193126-111221086) 207 (111221166-1112310139)"
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "201 (111193129-1112310010)"
     },
     {
         "Program": "BBA",
-        "Course Code": "ACN 2215/AIS 4103",
-        "Course Title": "Management Accounting/Management Accounting-I",
+        "Course Code": "ACN 1309/AIS 1302",
+        "Course Title": "Financial Accounting II/Intermediate Accounting",
         "Section": "A",
         "Teacher": "SIT",
-        "Exam Date": "April 17, 2025",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "202 (111201066-1112420068) 203 (1112420072-1112430108)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 1309/AIS 1302",
+        "Course Title": "Financial Accounting II/Intermediate Accounting",
+        "Section": "B",
+        "Teacher": "KYH",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "204 (111212066-1112420173) 205 (1112420174-1142430020)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 1309/AIS 1302",
+        "Course Title": "Financial Accounting II/Intermediate Accounting",
+        "Section": "C",
+        "Teacher": "IZC",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "206 (111202110-1112420027) 207 (1112420028-1142430012)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 1309/AIS 1302",
+        "Course Title": "Financial Accounting II/Intermediate Accounting",
+        "Section": "D",
+        "Teacher": "JBS",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "208 (111211036-1112420149) 209 (1112420155-121222011)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 1309/AIS 1302",
+        "Course Title": "Financial Accounting II/Intermediate Accounting",
+        "Section": "E",
+        "Teacher": "ItJn",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "210 (111162027-1112410149) 211 (1112410151-1142430016)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3341",
+        "Course Title": "Project Management",
+        "Section": "A",
+        "Teacher": "SdHn",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "203 (111192005-111221003) 204 (111221018-1112310173)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3341",
+        "Course Title": "Project Management",
+        "Section": "B",
+        "Teacher": "NtSr",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "205 (111181086-111222088) 206 (111222108-1112330074)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 4390",
+        "Course Title": "Research Methodology",
+        "Section": "A",
+        "Teacher": "AAsh",
+        "Exam Date": "September 11, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "202 (121221003-1212310017)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 2215/AIS 4103",
+        "Course Title": "Management Accounting/Management Accounting-I",
+        "Section": "A",
+        "Teacher": "SKa",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "208 (111163108-1112230260) 209 (1112310019-1142310004)"
+        "Room": "207 (111183044-1112330001) 208 (1112330004-114191005)"
     },
     {
         "Program": "BBA",
         "Course Code": "ACN 2215/AIS 4103",
         "Course Title": "Management Accounting/Management Accounting-I",
         "Section": "B",
-        "Teacher": "IZC",
-        "Exam Date": "April 17, 2025",
+        "Teacher": "SKa",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "210 (111171185-111222118) 211 (1112310020-114221001)"
+        "Room": "209 (111182021-1142310011)"
     },
     {
         "Program": "BBA",
         "Course Code": "ACN 2215/AIS 4103",
         "Course Title": "Management Accounting/Management Accounting-I",
         "Section": "C",
-        "Teacher": "SKa",
-        "Exam Date": "April 17, 2025",
+        "Teacher": "ItJn",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "222 (111192096-1142230014)"
+        "Room": "210 (111182055-1112310087) 211 (1112310120-114221015)"
     },
     {
         "Program": "BBA",
-        "Course Code": "ACN 2215/AIS 4103",
-        "Course Title": "Management Accounting/Management Accounting-I",
-        "Section": "D",
-        "Teacher": "SKa",
-        "Exam Date": "April 17, 2025",
+        "Course Code": "MKT 4313",
+        "Course Title": "Digital Marketing",
+        "Section": "A",
+        "Teacher": "TIM",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "223 (111193129-1112310103) 224 (1112310128-114222022)"
+        "Room": "201 (111141415-111222081)"
     },
     {
         "Program": "BSECO",
-        "Course Code": "ECO 3371",
-        "Course Title": "Econometrics II",
+        "Course Code": "ECO 3370",
+        "Course Title": "Econometrics I",
         "Section": "A",
-        "Teacher": "MSS",
-        "Exam Date": "April 17, 2025",
+        "Teacher": "TrAd",
+        "Exam Date": "September 11, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "209 (111192051-1212310017)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MKT 4314",
-        "Course Title": "Marketing Analytics",
-        "Section": "A",
-        "Teacher": "MHAMn",
-        "Exam Date": "April 17, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "227 (Computer Lab) (111192037-111222130)"
+        "Room": "222 (111221156-1212330010) 223 (1212330012-1212410017)"
     },
     {
         "Program": "BBA",
         "Course Code": "BDS 1201",
         "Course Title": "History of the Emergence of Bangladesh",
         "Section": "A",
-        "Teacher": "AAsh",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "MD",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "08:30 AM - 10:30 AM",
-        "Room": "202 (111213106-1112330199) 203 (1112410109-1212330004)"
+        "Room": "211 (111213109-1212420009)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BDS 1201",
+        "Course Title": "History of the Emergence of Bangladesh",
+        "Section": "B",
+        "Teacher": "MfHn",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "222 (111221199-1212330023)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 2321",
+        "Course Title": "Business Analytics",
+        "Section": "A",
+        "Teacher": "NRn",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "Computer Lab 2 (0227) (111193115-1112330220)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 2321",
+        "Course Title": "Business Analytics",
+        "Section": "B",
+        "Teacher": "NRn",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "Computer Lab 1 (0226) (111202077-1112310003) Computer Lab 1 (0226) (1112310004-1142330035)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 2321",
+        "Course Title": "Business Analytics",
+        "Section": "C",
+        "Teacher": "AIK",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "Computer Lab 3 (0327) (111173038-1112230267) Computer Lab 3 (0327) (1112230277-1142230014)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "CST 2321",
+        "Course Title": "Business Analytics",
+        "Section": "D",
+        "Teacher": "ZN",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "Computer Lab 4 (0427) (111193083-1112230006) Computer Lab 4 (0427) (1112230093-114213008)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "FIN 4116",
+        "Course Title": "Management of Financial Institutions",
+        "Section": "A",
+        "Teacher": "MEH",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "205 (111201192-111221193) 206 (111222005-1112310107)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "SCM 4311",
+        "Course Title": "Supply Chain Risk and Disruption Management",
+        "Section": "A",
+        "Teacher": "SdHn",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "08:30 AM - 10:30 AM",
+        "Room": "201 (111181086-111212081) 202 (111213040-1112230274)"
     },
     {
         "Program": "BSECO",
-        "Course Code": "ECO 3361",
-        "Course Title": "Health Economics",
+        "Course Code": "ECO 3302/ECO 3304",
+        "Course Title": "Intermediate Macroeconomic Theory II/Intermediate Macroeconomics II",
         "Section": "A",
-        "Teacher": "MSS",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "MdAkh",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "08:30 AM - 10:30 AM",
-        "Room": "202 (121203002-1212330037)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "FIN 4117",
-        "Course Title": "Corporate Finance",
-        "Section": "A",
-        "Teacher": "MMs",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "08:30 AM - 10:30 AM",
-        "Room": "203 (111191026-121211007)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3225",
-        "Course Title": "E-Business",
-        "Section": "A",
-        "Teacher": "TIM",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "08:30 AM - 10:30 AM",
-        "Room": "204 (111182035-111213108) 205 (111221003-1112310130)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "MGT 3225",
-        "Course Title": "E-Business",
-        "Section": "B",
-        "Teacher": "TIM",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "08:30 AM - 10:30 AM",
-        "Room": "206 (111191106-111222175)"
+        "Room": "204 (1212310018-1212410015)"
     },
     {
         "Program": "BBA",
         "Course Code": "BST 1308/QNT 1202",
         "Course Title": "Basic Statistics/Business Statistics I",
         "Section": "A",
+        "Teacher": "MHAMn",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "11:00 AM - 01:00 PM",
+        "Room": "202 (111213002-1112410098) 203 (1112410122-1142420026)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BST 1308/QNT 1202",
+        "Course Title": "Basic Statistics/Business Statistics I",
+        "Section": "B",
         "Teacher": "NAr",
-        "Exam Date": "April 18, 2025",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "204 (111193010-1112330070) 205 (1112330090-1142330016)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BST 1308/QNT 1202",
-        "Course Title": "Basic Statistics/Business Statistics I",
-        "Section": "B",
-        "Teacher": "ItJn",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "206 (111211035-1112330003) 207 (1112330039-1142310004)"
+        "Room": "204 (111201075-1112420021) 205 (1112420027-1142510014)"
     },
     {
         "Program": "BBA",
         "Course Code": "BST 1308/QNT 1202",
         "Course Title": "Basic Statistics/Business Statistics I",
         "Section": "C",
-        "Teacher": "MdAHq",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "MHAMn",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "208 (111181100-1112330101) 209 (1112330118-1142330024)"
+        "Room": "206 (111201007-1112410081) 207 (1112410083-1142430008)"
     },
     {
         "Program": "BBA",
         "Course Code": "BST 1308/QNT 1202",
         "Course Title": "Basic Statistics/Business Statistics I",
         "Section": "D",
-        "Teacher": "SBAr",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "FMS",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "210 (111211051-1112330206) 211 (1112330231-1142410015)"
+        "Room": "208 (111182021-1142330023)"
     },
     {
         "Program": "BBA",
-        "Course Code": "BST 1308/QNT 1202",
-        "Course Title": "Basic Statistics/Business Statistics I",
-        "Section": "E",
-        "Teacher": "ItJn",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "222 (111201075-1112330217) 223 (1112330234-1142410019)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 2321",
-        "Course Title": "Business Analytics",
+        "Course Code": "HRM 4270",
+        "Course Title": "Industrial Law and Employee Relations",
         "Section": "A",
-        "Teacher": "ZN",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "NAr",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "226 (Computer Lab) (111192005-111212076) 226 (Computer Lab) (111213027-1142230017)"
+        "Room": "204 (111153153-111222168)"
     },
     {
         "Program": "BBA",
-        "Course Code": "CST 2321",
-        "Course Title": "Business Analytics",
+        "Course Code": "MGT 3225",
+        "Course Title": "E-Business",
+        "Section": "A",
+        "Teacher": "TIM",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "11:00 AM - 01:00 PM",
+        "Room": "201 (111182035-111221097) 202 (111221193-114221015)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "MGT 3225",
+        "Course Title": "E-Business",
         "Section": "B",
-        "Teacher": "AIK",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "TIM",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "227 (Computer Lab) (111183026-111222050) 227 (Computer Lab) (111222060-114222022)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "CST 2321",
-        "Course Title": "Business Analytics",
-        "Section": "C",
-        "Teacher": "MdQ",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "326 (Computer Lab) (111191008-1142430019)"
+        "Room": "209 (111193099-1142310007)"
     },
     {
         "Program": "BSECO",
-        "Course Code": "ECO 1334",
-        "Course Title": "Statistics for Business and Economics I",
+        "Course Code": "ECO 3327",
+        "Course Title": "International Finance",
         "Section": "A",
-        "Teacher": "TrAd",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "TJT",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "222 (121222013-1212420006) 223 (1212420007-1212430013)"
+        "Room": "203 (121193001-1212310014)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ACN 4237/AIS 3208",
+        "Course Title": "Cost Accounting",
+        "Section": "A",
+        "Teacher": "MHM",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "02:30 PM - 04:30 PM",
+        "Room": "208 (111183098-1142330033)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BST 2216/QNT 3307",
+        "Course Title": "Applied Business Statistics/Business Statistics II",
+        "Section": "A",
+        "Teacher": "MUd",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "02:30 PM - 04:30 PM",
+        "Room": "209 (111181100-1112330014) 210 (1112330023-1142310011)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BST 2216/QNT 3307",
+        "Course Title": "Applied Business Statistics/Business Statistics II",
+        "Section": "B",
+        "Teacher": "MUd",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "02:30 PM - 04:30 PM",
+        "Room": "211 (111193020-1142330015)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BST 2216/QNT 3307",
+        "Course Title": "Applied Business Statistics/Business Statistics II",
+        "Section": "C",
+        "Teacher": "KMR",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "02:30 PM - 04:30 PM",
+        "Room": "222 (111201050-1112330095) 223 (1112330126-1142330009)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "BST 2216/QNT 3307",
+        "Course Title": "Applied Business Statistics/Business Statistics II",
+        "Section": "D",
+        "Teacher": "SIT",
+        "Exam Date": "September 12, 2025",
+        "Exam Time": "02:30 PM - 04:30 PM",
+        "Room": "224 (111181086-1112330049) 225 (1112330062-1142330016)"
     },
     {
         "Program": "BBA",
@@ -1355,79 +1325,19 @@
         "Course Title": "Brand Management",
         "Section": "A",
         "Teacher": "KMR",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "11:00 AM - 01:00 PM",
-        "Room": "201 (111172068-111222130)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BST 2216/QNT 3307",
-        "Course Title": "Applied Business Statistics/Business Statistics II",
-        "Section": "A",
-        "Teacher": "KMR",
-        "Exam Date": "April 18, 2025",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "202 (111183044-1112320092) 203 (1112320114-1142330033)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BST 2216/QNT 3307",
-        "Course Title": "Applied Business Statistics/Business Statistics II",
-        "Section": "B",
-        "Teacher": "MUd",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "204 (111162027-1142330002)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BST 2216/QNT 3307",
-        "Course Title": "Applied Business Statistics/Business Statistics II",
-        "Section": "C",
-        "Teacher": "SIT",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "205 (111191073-1112310116) 206 (1112310126-1142410014)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BST 2216/QNT 3307",
-        "Course Title": "Applied Business Statistics/Business Statistics II",
-        "Section": "D",
-        "Teacher": "MUd",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "207 (111161188-1142330013)"
+        "Room": "201 (111151098-1112230217)"
     },
     {
         "Program": "BSECO",
         "Course Code": "ECO 1374",
         "Course Title": "Statistics for Business and Economics II",
         "Section": "A",
-        "Teacher": "SCT",
-        "Exam Date": "April 18, 2025",
+        "Teacher": "MSS",
+        "Exam Date": "September 12, 2025",
         "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "202 (121193008-1212410018)"
-    },
-    {
-        "Program": "BSECO",
-        "Course Code": "ECO 4360",
-        "Course Title": "Managerial Economics",
-        "Section": "A",
-        "Teacher": "MOF",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "203 (121211009-121222011)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "HRM 4152",
-        "Course Title": "Compensation Management",
-        "Section": "A",
-        "Teacher": "Jkn",
-        "Exam Date": "April 18, 2025",
-        "Exam Time": "02:30 PM - 04:30 PM",
-        "Room": "201 (111163108-111222168)"
+        "Room": "209 (1212230003-1212430012)"
     },
     {
         "Program": "BBA",
@@ -1435,9 +1345,9 @@
         "Course Title": "Basic Mathematics/Business Mathematics I",
         "Section": "A",
         "Teacher": "GCD",
-        "Exam Date": "April 19, 2025",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "202 (111212063-1112510074) 203 (1112510075-1142510029)"
+        "Room": "202 (111192025-1112520004) 203 (1112520007-1142520005)"
     },
     {
         "Program": "BBA",
@@ -1445,218 +1355,198 @@
         "Course Title": "Basic Mathematics/Business Mathematics I",
         "Section": "B",
         "Teacher": "GCD",
-        "Exam Date": "April 19, 2025",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (111183098-1112420132) 205 (1112420151-1142510021)"
+        "Room": "204 (111191052-1112420041) 205 (1112420061-1142430013)"
     },
     {
         "Program": "BBA",
         "Course Code": "BMT 1103/QNT 1104",
         "Course Title": "Basic Mathematics/Business Mathematics I",
         "Section": "C",
-        "Teacher": "MSna",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "GCD",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "206 (111222177-1112510044) 207 (1112510052-1142510017)"
+        "Room": "206 (111222078-1112520030) 207 (1112520031-1142520006)"
     },
     {
         "Program": "BBA",
         "Course Code": "BMT 1103/QNT 1104",
         "Course Title": "Basic Mathematics/Business Mathematics I",
         "Section": "D",
-        "Teacher": "MSna",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "FMS",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "208 (1112230038-1112510108) 209 (1112510114-1142510033)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BMT 1103/QNT 1104",
-        "Course Title": "Basic Mathematics/Business Mathematics I",
-        "Section": "E",
-        "Teacher": "GCD",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "210 (1112230052-1112510079) 211 (1112510081-1142510034)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "BMT 1103/QNT 1104",
-        "Course Title": "Basic Mathematics/Business Mathematics I",
-        "Section": "F",
-        "Teacher": "MSna",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "222 (111213030-1112510096) 223 (1112510101-1142510035)"
+        "Room": "208 (111201139-1112520025) 209 (1112520029-1142420024)"
     },
     {
         "Program": "BBA",
         "Course Code": "ECN 2214",
         "Course Title": "Macroeconomics",
         "Section": "B",
-        "Teacher": "TJT",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "MSS",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "202 (111221140-1112320029) 203 (1112320037-1142410015)"
+        "Room": "202 (111213097-1112330158) 203 (1112330163-1142330002)"
     },
     {
         "Program": "BBA",
         "Course Code": "ECN 2214",
         "Course Title": "Macroeconomics",
         "Section": "C",
-        "Teacher": "MAkHn",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "TrAd",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "204 (1112230031-1142320004)"
+        "Room": "204 (111202126-1112410001) 205 (1112410016-1142410006)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ECN 2214",
+        "Course Title": "Macroeconomics",
+        "Section": "D",
+        "Teacher": "TaA",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "206 (111183044-1112330239) 207 (1112410007-1142420018)"
     },
     {
         "Program": "BBA",
         "Course Code": "ECN 2214/ECO 1302",
         "Course Title": "Introduction to Macroeconomics/Macroeconomics",
         "Section": "A",
-        "Teacher": "AAsh",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "MSS",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "205 (111221073-1112330052) 206 (1112330093-1212430013)"
+        "Room": "208 (111221128-1112330189) 209 (1112330198-1212430011)"
     },
     {
         "Program": "BBA",
-        "Course Code": "FIN 4331",
-        "Course Title": "Financial Modeling",
-        "Section": "A",
-        "Teacher": "MUd",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "226 (Computer Lab) (111191071-111221003)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "IBS 3121",
-        "Course Title": "International Business",
-        "Section": "A",
-        "Teacher": "JHC",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "209 (111201061-1112230163) 210 (1112230170-114221013)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "IBS 3121",
-        "Course Title": "International Business",
-        "Section": "B",
-        "Teacher": "TIM",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "211 (111183076-1142310001)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "IBS 3121",
-        "Course Title": "International Business",
-        "Section": "C",
-        "Teacher": "JHC",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "09:00 AM - 11:00 AM",
-        "Room": "222 (111192018-114222003)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ECN 2111",
-        "Course Title": "Microeconomics",
-        "Section": "B",
+        "Course Code": "ECN 2214/ECO 1302",
+        "Course Title": "Introduction to Macroeconomics/Macroeconomics",
+        "Section": "E",
         "Teacher": "TaA",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "223 (111221060-1112410020) 224 (1112410064-1142420023)"
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "210 (111211047-1212510007)"
     },
     {
         "Program": "BBA",
-        "Course Code": "ECN 2111",
-        "Course Title": "Microeconomics",
+        "Course Code": "FIN 4332",
+        "Course Title": "Financial Technology (FinTech)",
+        "Section": "A",
+        "Teacher": "MdQ",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "210 (111191071-114221028)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "IBS 3121",
+        "Course Title": "International Business",
+        "Section": "A",
+        "Teacher": "HRJ",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "211 (111192053-1112310120) 222 (1112310162-1212230001)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "IBS 3121",
+        "Course Title": "International Business",
+        "Section": "B",
+        "Teacher": "HRJ",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "09:00 AM - 11:00 AM",
+        "Room": "223 (111201007-1112230188) 224 (1112230190-121222011)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ECN 2111/ECO 1301",
+        "Course Title": "Introduction to Microeconomics/Microeconomics",
+        "Section": "A",
+        "Teacher": "TaA",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "201 (111192002-1112420120) 203 (1112420156-1212410021)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ECN 2111/ECO 1301",
+        "Course Title": "Introduction to Microeconomics/Microeconomics",
+        "Section": "B",
+        "Teacher": "MSS",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "204 (111192048-1112420126) 205 (1112420152-1212520009)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ECN 2111/ECO 1301",
+        "Course Title": "Introduction to Microeconomics/Microeconomics",
+        "Section": "C",
+        "Teacher": "MdAkh",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "206 (111183024-1112420121)"
+    },
+    {
+        "Program": "BBA",
+        "Course Code": "ECN 2111/ECO 1301",
+        "Course Title": "Introduction to Microeconomics/Microeconomics",
         "Section": "D",
         "Teacher": "TJT",
-        "Exam Date": "April 19, 2025",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "225 (111221188-1112410047) 228 (1112410048-1142420007)"
+        "Room": "207 (1112230035-1112420103) 208 (1112420116-1142430009)"
     },
     {
         "Program": "BBA",
-        "Course Code": "ECN 2111",
-        "Course Title": "Microeconomics",
-        "Section": "E",
-        "Teacher": "TrAd",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "202 (111211002-1112330225) 203 (1112410001-1142420010)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ECN 2111",
-        "Course Title": "Microeconomics",
-        "Section": "F",
-        "Teacher": "TaA",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "204 (111222049-1142420018)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ECN 2111/ECO 1301",
-        "Course Title": "Introduction to Microeconomics/Microeconomics",
+        "Course Code": "SCM 4203",
+        "Course Title": "Inventory Management",
         "Section": "A",
-        "Teacher": "TrAd",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "MaSa",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "205 (111221190-1112410050) 206 (1112410065-1212510007)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ECN 2111/ECO 1301",
-        "Course Title": "Introduction to Microeconomics/Microeconomics",
-        "Section": "C",
-        "Teacher": "MSS",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "207 (111212066-1112410061) 208 (1112410067-1212410021)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "HRM 4368",
-        "Course Title": "Human Resources Analytics",
-        "Section": "A",
-        "Teacher": "BJ",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "11:30 AM - 01:30 PM",
-        "Room": "326 (Computer Lab) (111173038-111222018)"
-    },
-    {
-        "Program": "BBA",
-        "Course Code": "ACN 4350/AIS 4350",
-        "Course Title": "Sustainability Accounting: Theory and Practice",
-        "Section": "A",
-        "Teacher": "MHM",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "202 (111191026-1142310007)"
+        "Room": "201 (111141415-111212052) 202 (111212061-1112230274)"
     },
     {
         "Program": "BSECO",
-        "Course Code": "ECO 4380",
-        "Course Title": "Urban Economics",
+        "Course Code": "ECO 2301/ECO 2304/ECO 2314",
+        "Course Title": "Intermediate Microeconomic Theory I/Intermediate Microeconomics/Intermediate Microeconomics I",
         "Section": "A",
-        "Teacher": "SCT",
-        "Exam Date": "April 19, 2025",
-        "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "203 (121182007-1212320007)"
+        "Teacher": "MSS",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "11:30 AM - 01:30 PM",
+        "Room": "202 (111181087-1212410008) 203 (1212410009-1212510006)"
     },
     {
         "Program": "BBA",
-        "Course Code": "MKT 4308/SCM 4101",
-        "Course Title": "Introduction to Supply Chain Management/Supply Chain Management",
+        "Course Code": "MKT 4306",
+        "Course Title": "Marketing Research",
         "Section": "A",
-        "Teacher": "SdHn",
-        "Exam Date": "April 19, 2025",
+        "Teacher": "MHAMn",
+        "Exam Date": "September 13, 2025",
         "Exam Time": "02:00 PM - 04:00 PM",
-        "Room": "201 (111122298-111201165) 202 (111201226-1112230274)"
+        "Room": "203 (111171117-1112230217)"
+    },
+    {
+        "Program": "BBA in AIS",
+        "Course Code": "AIS 4303",
+        "Course Title": "Corporate Financial Reporting",
+        "Section": "A",
+        "Teacher": "JBS",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "202 (114162018-1142310007)"
+    },
+    {
+        "Program": "BSECO",
+        "Course Code": "ECO 4350",
+        "Course Title": "Labor Economics",
+        "Section": "A",
+        "Teacher": "TJT",
+        "Exam Date": "September 13, 2025",
+        "Exam Time": "02:00 PM - 04:00 PM",
+        "Room": "203 (121212004-1212410020)"
     }
 ]
